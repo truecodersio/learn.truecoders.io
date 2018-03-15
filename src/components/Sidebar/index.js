@@ -13,11 +13,11 @@ const Sidebar = () => (
       top: 0,
       left: 0,
       overflowX: "hidden",
-      padding: "0 32px"
+      padding: "16px 32px"
     }}
   >
     <Link to="/">
-      <img src={logo} alt="Logo" style={{ width: "120px" }} />
+      <img src={logo} alt="Logo" style={{ width: "80px" }} />
     </Link>
     <br/>
     <Link to="/about">About</Link>
