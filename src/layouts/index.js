@@ -2,6 +2,10 @@ import React from "react";
 import PropTypes from "prop-types";
 import Helmet from "react-helmet";
 
+import Sidebar from "../components/Sidebar";
+
+const sidebarSize = "200px"
+
 const IndexLayout = ({ children }) => (
   <div>
     <Helmet
@@ -11,14 +15,15 @@ const IndexLayout = ({ children }) => (
         { name: "keywords", content: "sample, something" }
       ]}
     />
+    <Sidebar />
     <div
       style={{
-        margin: "0 auto",
-        padding: "0px 1.0875rem 1.45rem",
-        paddingTop: 24
+        marginLeft: "256px",
+        marginTop: "40px"
       }}
     >
-      {children()}
+      {" "}
+      {children()}{" "}
     </div>
   </div>
 );
