@@ -1,12 +1,14 @@
 import React, { Component } from "react";
 import Link from "gatsby-link";
 
-export default () => (
+const IndexPage = () => (
   <div>
-    <h1>Hi! I'm building a fake Gatsby site as part of a tutorial!</h1>
+    <h2>Hi! I'm building a fake Gatsby site as part of a tutorial!</h2>
     <p>
       What do I like to do? Lots of course but definitely enjoy building
       websites.
     </p>
   </div>
 );
+
+export default IndexPage;
