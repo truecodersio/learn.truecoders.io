@@ -1,6 +1,6 @@
 {
-  "name": "gatsby-starter-hello-world",
-  "description": "Gatsby hello world starter",
+  "name": "learn.truecoders.io",
+  "description": "TrueCoders",
   "version": "0.1.0",
   "license": "MIT",
   "scripts": {
@@ -12,6 +12,7 @@
     "gatsby": "^1.9.232",
     "gatsby-link": "^1.6.39",
     "gatsby-plugin-react-helmet": "^2.0.7",
-    "gatsby-plugin-typography": "^1.7.18"
+    "gatsby-plugin-typography": "^1.7.18",
+    "react-helmet": "^5.2.0"
   }
 }
