@@ -3,10 +3,9 @@ import Link from "gatsby-link";
 
 const IndexPage = () => (
   <div>
-    <h2>Hi! I'm building a fake Gatsby site as part of a tutorial!</h2>
+    <h1>Welcome to TrueCoders</h1>
     <p>
-      What do I like to do? Lots of course but definitely enjoy building
-      websites.
+      We're excited to have you here!
     </p>
   </div>
 );
