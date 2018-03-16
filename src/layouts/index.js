@@ -15,7 +15,7 @@ const IndexLayout = ({ children, data }) => (
         { name: 'keywords', content: 'sample, something' },
       ]}
     />
-    <Sidebar />
+    <Sidebar items={data.allSitePage.edges} />
     <div
       style={{
         marginLeft: '256px',
@@ -39,6 +39,17 @@ export const query = graphql`
     site {
       siteMetadata {
         title
+      }
+    }
+    allSitePage(
+      filter: { path: { ne: "/dev-404-page/" } }
+      sort: { fields: [path], order: ASC }
+    ) {
+      totalCount
+      edges {
+        node {
+          path
+        }
       }
     }
   }
