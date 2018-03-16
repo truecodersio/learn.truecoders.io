@@ -21,9 +21,9 @@ class Sidebar extends React.Component {
         <Link to="/">
           <img src={logo} alt="Logo" style={{ width: '80px' }} />
         </Link>
-        {this.props.items.map(({ node }, index) => (
+        {this.props.items.map((item, index) => (
           <div>
-            <Link to={node.path}>{node.path}</Link>
+            <Link to={item.path}>{item.title}</Link>
             <br />
           </div>
         ))}

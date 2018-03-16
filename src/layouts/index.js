@@ -6,27 +6,35 @@ import Sidebar from '../components/Sidebar'
 
 const sidebarSize = '200px'
 
-const IndexLayout = ({ children, data }) => (
-  <div>
-    <Helmet
-      title={data.site.siteMetadata.title}
-      meta={[
-        { name: 'description', content: 'TrueCoders' },
-        { name: 'keywords', content: 'sample, something' },
-      ]}
-    />
-    <Sidebar items={data.allSitePage.edges} />
-    <div
-      style={{
-        marginLeft: '256px',
-        marginTop: '40px',
-      }}
-    >
-      {' '}
-      {children()}{' '}
+const IndexLayout = ({ children, data }) => {
+  const sidebarItems = data.allMarkdownRemark.edges.map(({ node }, index) => (
+    { path: node.fields.slug, title: node.frontmatter.title }
+  )).filter(item => item.path != '/')
+
+  console.log(sidebarItems);
+
+  return (
+    <div>
+      <Helmet
+        title={data.site.siteMetadata.title}
+        meta={[
+          { name: 'description', content: 'TrueCoders' },
+          { name: 'keywords', content: 'sample, something' },
+        ]}
+      />
+      <Sidebar items={sidebarItems} />
+      <div
+        style={{
+          marginLeft: '256px',
+          marginTop: '40px',
+        }}
+      >
+        {' '}
+        {children()}{' '}
+      </div>
     </div>
-  </div>
-)
+  )
+}
 
 IndexLayout.propTypes = {
   children: PropTypes.func,
@@ -41,14 +49,15 @@ export const query = graphql`
         title
       }
     }
-    allSitePage(
-      filter: { path: { ne: "/dev-404-page/" } }
-      sort: { fields: [path], order: ASC }
-    ) {
-      totalCount
+    allMarkdownRemark {
       edges {
         node {
-          path
+          fields {
+            slug
+          }
+          frontmatter {
+            title
+          }
         }
       }
     }
