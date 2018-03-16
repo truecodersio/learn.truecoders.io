@@ -1,5 +1,5 @@
-import React, { Component } from "react";
-import Link from "gatsby-link";
+import React, { Component } from 'react'
+import Link from 'gatsby-link'
 
 const ContactPage = () => (
   <div>
@@ -8,6 +8,6 @@ const ContactPage = () => (
       <a href="mailto:me@example.com">me@example.com</a>
     </p>
   </div>
-);
+)
 
-export default ContactPage;
+export default ContactPage
