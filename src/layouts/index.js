@@ -11,8 +11,6 @@ const IndexLayout = ({ children, data }) => {
     { path: node.fields.slug, title: node.frontmatter.title }
   )).filter(item => item.path != '/')
 
-  console.log(sidebarItems);
-
   return (
     <div>
       <Helmet

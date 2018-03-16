@@ -5,6 +5,12 @@ import logo from '../../assets/logo-only.svg'
 
 class Sidebar extends React.Component {
   render() {
+    const items = this.props.items.map((item, index) => (
+      <li key={index}>
+        <Link to={item.path}>{item.title}</Link>
+      </li>
+    ))
+
     return (
       <div
         style={{
@@ -21,12 +27,9 @@ class Sidebar extends React.Component {
         <Link to="/">
           <img src={logo} alt="Logo" style={{ width: '80px' }} />
         </Link>
-        {this.props.items.map((item, index) => (
-          <div>
-            <Link to={item.path}>{item.title}</Link>
-            <br />
-          </div>
-        ))}
+        <ul>
+        {items}
+        </ul>
       </div>
     )
   }
