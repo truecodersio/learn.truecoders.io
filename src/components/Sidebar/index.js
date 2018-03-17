@@ -15,13 +15,13 @@ class Sidebar extends React.Component {
       <div
         style={{
           height: '100%',
-          width: '224px',
+          width: '352px',
           position: 'fixed',
           zIndex: 1,
           top: 0,
           left: 0,
           overflowX: 'hidden',
-          padding: '16px 32px',
+          padding: '32px 48px',
         }}
       >
         <Link to="/">

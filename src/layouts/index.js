@@ -24,7 +24,7 @@ const IndexLayout = ({ children, data }) => {
       <Sidebar items={sidebarItems} />
       <div
         style={{
-          marginLeft: '256px',
+          marginLeft: '384px',
           marginTop: '40px',
           marginRight: '40px',
           maxWidth: '1200px',
