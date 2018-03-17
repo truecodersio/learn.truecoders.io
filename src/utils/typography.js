@@ -35,11 +35,9 @@ const typography = new Typography({
   overrideStyles: ({ scale, rhythm }) => ({
     a: {
       color: 'inherit',
-      textDecoration: 'none',
     },
     'a:hover': {
       color: 'inherit',
-      textDecoration: 'none',
     },
   }),
 })

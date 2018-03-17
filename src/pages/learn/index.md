@@ -2,7 +2,7 @@
 title: TrueCoders Course Materials
 ---
 
-Welcome to our TrueCoders Course Materials. Copyright (c) 2018 TrueCoders LLC. All Rights Reserved.
+Welcome to our TrueCoders Course Materials. Copyright © 2018 TrueCoders LLC. All Rights Reserved.
 
 ## Course Material
 
