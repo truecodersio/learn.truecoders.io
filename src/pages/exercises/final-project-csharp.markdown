@@ -1,5 +1,5 @@
 ---
-title: C# Exercise: Final Project
+title: C# Final Project
 ---
 
 * [Introduction](#introduction)

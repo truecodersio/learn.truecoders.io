@@ -11,7 +11,7 @@ title: Model View Controller
 
 Model View Controller (MVC) is a very well established architecture that fulfills all of the goals pf good architecture. MVC is supported/encouraged within various other platforms and languages, including ASP.NET MVC, so it will follow you wherever you go.
 
-![MVC](../assets/mvc.png "MVC")
+![MVC](mvc.png "MVC")
 
 MVC works by defining three different abstractions (Model, View, and Controller), allowing good separation of concern:
 

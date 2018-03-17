@@ -1,5 +1,5 @@
 ---
-title: C# Exercise: Onboarding App
+title: C# Onboarding App
 ---
 
 * [Introduction](#introduction)

@@ -1,5 +1,5 @@
 ---
-title: C# Exercise: Hello World
+title: C# Hello World
 ---
 
 * [Introduction](#introduction)
