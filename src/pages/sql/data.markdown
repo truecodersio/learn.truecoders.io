@@ -2,15 +2,6 @@
 title: SQL Data
 ---
 
-* [Statement Data](#statement-data)
-  * [String](#string)
-  * [Numeric](#numeric)
-  * [Null](#null)
-* [Table Data](#table-data)
-  * [Primary Keys](#primary-keys)
-  * [Microsoft SQL Data Types](#microsoft-sql-data-types)
-  * [Other Data Types](#other-data-types)
-
 ## Statement Data
 
 Data is often included in [SQL Statements](statements.markdown) like `SELECT` and almost always included in `INSERT`, `UPDATE`, and `DELETE` statements. Here's the data you'll use:
