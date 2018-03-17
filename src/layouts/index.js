@@ -3,6 +3,7 @@ import PropTypes from 'prop-types'
 import Helmet from 'react-helmet'
 
 import Sidebar from '../components/Sidebar'
+import 'prismjs/themes/prism-okaidia.css'
 
 const sidebarSize = '200px'
 
@@ -25,6 +26,8 @@ const IndexLayout = ({ children, data }) => {
         style={{
           marginLeft: '256px',
           marginTop: '40px',
+          marginRight: '40px',
+          maxWidth: '1200px',
         }}
       >
         {' '}
