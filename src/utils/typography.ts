@@ -1,4 +1,4 @@
-import Typography from 'typography'
+import * as Typography from 'typography'
 
 const typography = new Typography({
   baseFontSize: '18px',
@@ -32,7 +32,7 @@ const typography = new Typography({
       styles: ['400', '400i', '500', '500i', '600', '600i', '700', '700i'],
     },
   ],
-  overrideStyles: ({ scale, rhythm }) => ({
+  overrideStyles: ({ scale, rhythm }: any) => ({
     a: {
       color: 'inherit',
     },
