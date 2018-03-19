@@ -5,22 +5,6 @@ date: '2018-08-21'
 
 Welcome to our TrueCoders Course Materials. Copyright © 2018 TrueCoders LLC. All Rights Reserved.
 
-## Course Material
-
-### Languages
-
-* [C# Material](csharp)
-* [Java Material](java)
-* [SQL Material](sql)
-
-### Tools and Resources
-
-* [Architecture](architecture): building with best practices in mind
-* [Definitions](definitions.md): our running list of terminology definitions
-* [Diagnostics](diagnostics.markdown): quickly and accurately solve problems in software
-* [Git](git.markdown): version your code with source control
-* [Logging](logging.markdown): know what is happening in production code
-
 ## Documentation and Resources
 
 As we go into details of any programming language, you'll find that documentation is your best friend for learning and improving your language skill set:
@@ -29,13 +13,6 @@ As we go into details of any programming language, you'll find that documentatio
 * [Linus Torvalds on Git](https://youtu.be/4XpnKHJAok8)
 * [Markdown Docs](https://daringfireball.net/projects/markdown/syntax/)
 * [Semantic Versioning](http://semver.org)
-
-## Exercises
-
-* [Hello World: C#](exercises/hello-world-csharp.markdown)
-* [Onboarding App: C#](exercises/onboarding-app-csharp.markdown)
-* [Final Project: C#](exercises/final-project-csharp.markdown)
-* [Reporting: SQL](exercises/reporting-sql.markdown)
 
 ## Course Overview
 
@@ -117,5 +94,5 @@ Parking is provided for all our students that request it. The parking structure 
 
 You'll need to head up the ramp, then scan your key card as shown below:
 
-![Parking Ramp](parking-ramp.jpg "Parking Ramp")
-![Parking Scan](parking-scan.jpg "Parking Scan")
+![Parking Ramp](../assets/parking-ramp.jpg "Parking Ramp")
+![Parking Scan](../assets/parking-scan.jpg "Parking Scan")

@@ -3,9 +3,9 @@ backend:
   repo: truecodersio/learn.truecoders.io
 media_folder: static/assets
 collections:
-  - name: page
-    label: Page
-    folder: src/pages
+  - name: learn
+    label: Learn
+    folder: learn
     create: true
     fields:
       - label: Title
