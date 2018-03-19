@@ -1,14 +1,8 @@
 ---
 title: Inversion of Control
+module: architecture
+order: 2
 ---
-
-* [Introduction](#introduction)
-* [Reflection](#reflection)
-* [Dependency Lifetime](#dependency-lifetime)
-* [Example](#example)
-  * [Dependency Registration](#dependency-registration)
-  * [Constructor Dependency Injection](#constructor-dependency-injection)
-  * [Property Attribute Dependency Injection](#property-attribute-dependency-injection)
 
 ## Introduction
 

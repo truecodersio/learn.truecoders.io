@@ -1,5 +1,7 @@
 ---
 title: Architecture
+module: architecture
+order: 0
 ---
 
 * [Documentation and Resources](#documentation-and-resources)

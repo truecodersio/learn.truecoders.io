@@ -1,11 +1,8 @@
 ---
 title: Model View Controller
+module: architecture
+order: 1
 ---
-
-* [Introduction](#introduction)
-* [Model](#model)
-* [View](#view)
-* [Controller](#controller)
 
 ## Introduction
 
