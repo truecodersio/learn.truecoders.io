@@ -5,7 +5,7 @@ import Sidebar from '../components/Sidebar'
 import 'prismjs/themes/prism-okaidia.css'
 
 interface IndexLayoutProps {
-  children: any
+  children(): any
   data: {
     site: {
       siteMetadata: {
