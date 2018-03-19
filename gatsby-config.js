@@ -3,9 +3,10 @@ module.exports = {
     title: 'TrueCoders',
   },
   plugins: [
+    `gatsby-plugin-catch-links`,
+    `gatsby-plugin-netlify-cms`,
     'gatsby-plugin-react-helmet',
     `gatsby-plugin-sharp`,
-    `gatsby-plugin-catch-links`,
     `gatsby-plugin-typescript`,
     {
       resolve: `gatsby-transformer-remark`,
