@@ -6,7 +6,8 @@
   "scripts": {
     "develop": "gatsby develop",
     "build": "gatsby build",
-    "serve": "gatsby serve"
+    "serve": "gatsby serve",
+    "deploy": "gatsby build && gh-pages -b master -d public"
   },
   "dependencies": {
     "@types/node": "^9.4.7",
@@ -26,5 +27,8 @@
     "gatsby-source-filesystem": "^1.5.27",
     "gatsby-transformer-remark": "^1.7.37",
     "react-helmet": "^5.2.0"
+  },
+  "devDependencies": {
+    "gh-pages": "^1.1.0"
   }
 }
