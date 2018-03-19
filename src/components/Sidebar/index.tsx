@@ -1,7 +1,7 @@
 import * as React from 'react'
 import Link from 'gatsby-link'
 
-const logo = require("../../assets/logo-only.svg") as string
+const logo = require('../../assets/logo-only.svg') as string
 
 interface SidebarProps {
   items: {
@@ -13,8 +13,15 @@ interface SidebarProps {
 class Sidebar extends React.Component<SidebarProps, {}> {
   render() {
     const items = this.props.items.map(item => (
-      <li key={item.path}>
-        <Link to={item.path}>{item.title}</Link>
+      <li
+        style={{
+          listStyleType: 'none',
+        }}
+        key={item.path}
+      >
+        <Link to={item.path} key={item.path}>
+          {item.title}
+        </Link>
       </li>
     ))
 
