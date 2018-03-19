@@ -1,7 +1,17 @@
-import React from 'react'
+import * as React from 'react'
 
-export default ({ data }) => {
-  console.log(data)
+interface PageTemplateData {
+  data: {
+    markdownRemark: {
+      html: string
+      frontmatter: {
+        title: string
+      }
+    }
+  }
+}
+
+export default ({ data }: PageTemplateData) => {
   const page = data.markdownRemark
   return (
     <div>

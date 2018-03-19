@@ -1,12 +1,19 @@
-import React from 'react'
+import * as React from 'react'
 import Link from 'gatsby-link'
 
-import logo from '../../assets/logo-only.svg'
+const logo = require("../../assets/logo-only.svg") as string
 
-class Sidebar extends React.Component {
+interface SidebarProps {
+  items: {
+    path: string
+    title: string
+  }[]
+}
+
+class Sidebar extends React.Component<SidebarProps, {}> {
   render() {
-    const items = this.props.items.map((item, index) => (
-      <li key={index}>
+    const items = this.props.items.map(item => (
+      <li key={item.path}>
         <Link to={item.path}>{item.title}</Link>
       </li>
     ))
@@ -27,9 +34,7 @@ class Sidebar extends React.Component {
         <Link to="/">
           <img src={logo} alt="Logo" style={{ width: '80px' }} />
         </Link>
-        <ul>
-        {items}
-        </ul>
+        <ul>{items}</ul>
       </div>
     )
   }
