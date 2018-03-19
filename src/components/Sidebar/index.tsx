@@ -1,7 +1,7 @@
 import * as React from 'react'
 import Link from 'gatsby-link'
 
-import logo from '../../assets/logo-only.svg'
+const logo = require("../../assets/logo-only.svg") as string
 
 interface SidebarProps {
   items: {
