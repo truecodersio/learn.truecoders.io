@@ -13,6 +13,7 @@
     "@types/react": "^16.0.40",
     "@types/react-dom": "^16.0.4",
     "@types/react-helmet": "^5.0.5",
+    "firebase": "^4.11.0",
     "gatsby": "^1.9.237",
     "gatsby-link": "^1.6.39",
     "gatsby-plugin-catch-links": "^1.0.19",
