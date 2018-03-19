@@ -1,15 +1,17 @@
 import * as React from 'react'
 
 interface PageTemplateData {
-  markdownRemark: {
-    html: string
-    frontmatter: {
-      title: string
+  data: {
+    markdownRemark: {
+      html: string
+      frontmatter: {
+        title: string
+      }
     }
   }
 }
 
-export default ({ data }: { data: PageTemplateData }) => {
+export default ({ data }: PageTemplateData) => {
   const page = data.markdownRemark
   return (
     <div>

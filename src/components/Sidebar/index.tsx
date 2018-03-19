@@ -4,15 +4,13 @@ import Link from 'gatsby-link'
 import logo from '../../assets/logo-only.svg'
 
 interface SidebarProps {
-  items: [
-    {
-      path: string
-      title: string
-    }
-  ]
+  items: {
+    path: string
+    title: string
+  }[]
 }
 
-class Sidebar extends React.PureComponent<SidebarProps, void> {
+class Sidebar extends React.Component<SidebarProps, {}> {
   render() {
     const items = this.props.items.map(item => (
       <li key={item.path}>
