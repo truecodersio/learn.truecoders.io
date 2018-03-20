@@ -3,7 +3,6 @@ module.exports = {
     title: 'TrueCoders',
   },
   plugins: [
-    `gatsby-plugin-catch-links`,
     `gatsby-plugin-netlify-cms`,
     'gatsby-plugin-react-helmet',
     `gatsby-plugin-sharp`,
@@ -15,6 +14,7 @@ module.exports = {
         plugins: [
           `gatsby-remark-prismjs`,
           `gatsby-remark-autolink-headers`,
+          `gatsby-remark-copy-images`,
           {
             resolve: `gatsby-remark-images`,
             options: {
@@ -46,5 +46,6 @@ module.exports = {
         pathToConfigModule: `src/utils/typography.ts`,
       },
     },
+    `gatsby-plugin-catch-links`,
   ],
 }
