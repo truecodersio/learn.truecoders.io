@@ -1,5 +1,6 @@
 ---
 title: Inversion of Control
+date: '2018-03-19T19:00:56-05:00'
 module: architecture
 order: 2
 ---
@@ -10,7 +11,7 @@ Inversion of Control (IoC) is a design principle in which custom-written portion
 
 Inversion of Control conforms to the Hollywood Principle ("Don't call us. We'll call you."). In this case, and object doesn't call for its own dependencies; it recieves its dependencies at creation from some Dependency Injector object.
 
-![IoC](ioc.gif 'IoC')
+![IoC](ioc.png "IoC")
 
 ## Reflection
 

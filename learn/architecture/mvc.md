@@ -1,5 +1,6 @@
 ---
 title: Model View Controller
+date: '2018-03-19T19:00:56-05:00'
 module: architecture
 order: 1
 ---
