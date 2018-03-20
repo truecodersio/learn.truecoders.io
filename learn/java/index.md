@@ -1,15 +1,9 @@
 ---
-title: Java Course Material and Resources
+title: Java
+date: '2018-03-19T19:00:56-05:00'
+module: java
+order: 0
 ---
-
-* [Documentation and Resources](#documentation-and-resources)
-* [Source Code Comments](#source-code-comments)
-  * [Line Comment](#line-comment)
-  * [Block Comment](#block-comment)
-* [Source Code Line Termination](#source-code-line-termination)
-* [Case Sensitivity](#case-sensitivity)
-* [Output](#output)
-* [Material](#material)
 
 ## Documentation and Resources
 
@@ -72,13 +66,4 @@ Message to write out
 
 ## Material
 
-Awesome, let's get your [System Setup](system.markdown) and move onto our materials:
-
-* [Variables](variables.markdown)
-* [Types](types.markdown)
-* [Methods](methods.markdown)
-* [Operators](operators.markdown)
-* [Statements](statements.markdown)
-* [Classes](classes.markdown)
-* [Interfaces](interfaces.markdown)
-* [Syntax](syntax.markdown)
+Awesome, let's get your [System Setup](system) and move onto our materials.

@@ -1,5 +1,5 @@
 ---
-title: C# Course Material and Resources
+title: C#
 date: '2018-03-19T19:00:56-05:00'
 module: csharp
 order: 0

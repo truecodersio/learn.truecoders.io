@@ -1,9 +1,9 @@
 ---
 title: Java Syntax
+date: '2018-03-19T19:00:56-05:00'
+module: java
+order: 9
 ---
-
-* [Introduction](#introduction)
-* [Inline If/Ternary Operator](#inline-ifternary-operator)
 
 ## Introduction
 

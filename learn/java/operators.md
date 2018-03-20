@@ -1,9 +1,9 @@
 ---
 title: Java Operators
+date: '2018-03-19T19:00:56-05:00'
+module: java
+order: 5
 ---
-
-* [Math Operators](#math-operators)
-* [Logic Operators](#logic-operators)
 
 ## Math Operators
 

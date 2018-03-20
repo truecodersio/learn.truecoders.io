@@ -1,17 +1,9 @@
 ---
 title: Java System Setup
+date: '2018-03-19T19:00:56-05:00'
+module: java
+order: 1
 ---
-
-* [Accounts](#accounts)
-* [Java JDK](#java-jdk)
-  * [Install Java JDK on Mac](#install-java-jdk-on-mac)
-  * [Install Java JDK on Windows](#install-java-jdk-on-windows)
-* [Eclipse](#eclipse)
-  * [Install on Eclipse Mac](#install-on-eclipse-mac)
-  * [Install on Eclipse Windows](#install-on-eclipse-windows)
-* [Lightweight Code Editor](#lightweight-code-editor)
-* [Source Control](#source-control)
-* [Java Material](#java-material)
 
 ## Accounts
 

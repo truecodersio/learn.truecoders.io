@@ -1,13 +1,16 @@
 ---
 title: C# Hello World
+date: '2018-03-19T19:00:56-05:00'
+module: exercises
+order: 0
 ---
 
 * [Introduction](#introduction)
 * [Create a Project](#create-a-project)
 * [Build and Run](#build-and-run)
-  * [C# Compiler](#c-compiler)
-  * [MSBuild](#msbuild)
-  * [Visual Studio IDE](#visual-studio-ide)
+    * [C# Compiler](#c-compiler)
+    * [MSBuild](#msbuild)
+    * [Visual Studio IDE](#visual-studio-ide)
 
 ## Introduction
 

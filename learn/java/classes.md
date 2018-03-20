@@ -1,13 +1,9 @@
 ---
 title: Java Classes
+date: '2018-03-19T19:00:56-05:00'
+module: java
+order: 7
 ---
-
-* [Fundamentals](#fundamentals)
-* [Instances](#instances)
-* [Class Methods and Variables](#class-methods-and-variables)
-* [Inheritance](#inheritance)
-  * [Inheritance Exercise](#inheritance-exercise)
-* [Constructor](#constructor)
 
 ## Fundamentals
 

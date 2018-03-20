@@ -1,22 +1,9 @@
 ---
 title: Java Types
+date: '2018-03-19T19:00:56-05:00'
+module: java
+order: 3
 ---
-
-* [Primitive Types](#primitive-types)
-  * [Boolean](#boolean)
-  * [Character](#character)
-  * [Byte](#byte)
-  * [Short](#short)
-  * [Integer](#integer)
-  * [Long](#long)
-  * [Float](#float)
-  * [Double](#double)
-* [Null and Nullables](#null-and-nullables)
-* [Reference Types](#reference-types)
-  * [String](#string)
-  * [Array](#array)
-  * [Enum](#enum)
-* [Reference Types vs. Primitive Types](#reference-types-vs-primitive-types)
 
 ## Primitive Types
 
