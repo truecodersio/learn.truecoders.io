@@ -1,5 +1,8 @@
 ---
 title: C# Course Material and Resources
+date: '2018-03-19T19:00:56-05:00'
+module: csharp
+order: 0
 ---
 
 * [Documentation and Resources](#documentation-and-resources)
@@ -73,13 +76,4 @@ Message to write out
 
 ## Material
 
-Awesome, let's get your [System Setup](system.markdown) and move onto our materials:
-
-* [Variables](variables.markdown)
-* [Types](types.markdown)
-* [Methods](methods.markdown)
-* [Operators](operators.markdown)
-* [Statements](statements.markdown)
-* [Classes](classes.markdown)
-* [Interfaces](interfaces.markdown)
-* [Syntax](syntax.markdown)
+Awesome, let's get your [System Setup](system) and move onto our materials.

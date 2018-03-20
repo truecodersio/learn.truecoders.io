@@ -2,7 +2,7 @@
 title: Diagnostics
 date: '2018-03-19T19:00:56-05:00'
 module: general
-order: 0
+order: 3
 ---
 
 So, you've found a problem. Now what?

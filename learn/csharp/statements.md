@@ -1,16 +1,19 @@
 ---
 title: C# Statements
+date: '2018-03-19T19:00:56-05:00'
+module: csharp
+order: 5
 ---
 
 * [Scope](#scope)
 * [Selection](#selection)
-  * [If](#if)
-  * [Else](#else)
+    * [If](#if)
+    * [Else](#else)
 * [Iteration](#iteration)
-  * [While](#while)
-  * [Do](#do)
-  * [For](#for)
-  * [Foreach](#foreach)
+    * [While](#while)
+    * [Do](#do)
+    * [For](#for)
+    * [Foreach](#foreach)
 
 ## Scope
 
