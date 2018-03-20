@@ -1,5 +1,5 @@
 ---
-title: Java Variables
+title: Variables
 date: '2018-03-19T19:00:56-05:00'
 module: java
 order: 2
@@ -46,5 +46,3 @@ aVal = 123; // fails
 String newVal;
 newVal = "Testing new val";
 ```
-
-**Next:** [Types](types.markdown)

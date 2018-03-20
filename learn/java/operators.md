@@ -1,5 +1,5 @@
 ---
-title: Java Operators
+title: Operators
 date: '2018-03-19T19:00:56-05:00'
 module: java
 order: 5
@@ -93,6 +93,3 @@ Exclaimation mark `!`, also called bang, is the operator for Logical "Not". "Not
 boolean aBool = !false; // aBool equals true
 boolean bBool = !true; // bBool equals false
 ```
-
-**Previous:** [Methods](methods.markdown) |
-**Next:** [Statements](statements.markdown)

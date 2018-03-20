@@ -1,5 +1,5 @@
 ---
-title: Java Syntax
+title: Syntax
 date: '2018-03-19T19:00:56-05:00'
 module: java
 order: 9
@@ -44,5 +44,3 @@ String positiveMessage = (i > 0) ? "You are positive!" : "You're not positive. H
 ```
 
 Option 2 is clear and readable, like Option 1, yet Option 2 is far more concise.
-
-**Previous:** [Interfaces](interfaces.markdown)

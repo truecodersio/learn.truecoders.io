@@ -1,5 +1,5 @@
 ---
-title: Java Interfaces
+title: Interfaces
 date: '2018-03-19T19:00:56-05:00'
 module: java
 order: 8
@@ -101,6 +101,3 @@ cleanBird(penguin); // this also works
 ```
 
 We've created a method that accepts any bird in a type-safe fashion.
-
-**Previous:** [Classes](classes.markdown) |
-**Next:** [Syntax](syntax.markdown)

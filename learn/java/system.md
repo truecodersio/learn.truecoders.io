@@ -1,5 +1,5 @@
 ---
-title: Java System Setup
+title: System Setup
 date: '2018-03-19T19:00:56-05:00'
 module: java
 order: 1
@@ -47,4 +47,4 @@ During this course, you'll learn more about Source Control Management. For now, 
 
 ## Java Material
 
-Now that you're all setup, let's dive into our [Java Material Start](variables.markdown).
+Now that you're all setup, let's dive into our [Java Material Start](variables).

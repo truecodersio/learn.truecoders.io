@@ -1,5 +1,5 @@
 ---
-title: Java Types
+title: Types
 date: '2018-03-19T19:00:56-05:00'
 module: java
 order: 3
@@ -206,6 +206,3 @@ c.name = "Fluffy";
 // You changed the property of the actual object
 // So now c.name equals "Fluffy" && d.name equals "Fluffy"
 ```
-
-**Previous:** [Variables](variables.markdown) |
-**Next:** [Methods](methods.markdown)

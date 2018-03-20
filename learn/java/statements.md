@@ -1,5 +1,5 @@
 ---
-title: Java Statements
+title: Statements
 date: '2018-03-19T19:00:56-05:00'
 module: java
 order: 6
@@ -169,6 +169,3 @@ for (String email : emails) {
 ```
 
 If we added a 3rd email address to the `emails` array, the foreach loop scope would execute 3 times.
-
-**Previous:** [Operators](operators.markdown) |
-**Next:** [Classes](classes.markdown)

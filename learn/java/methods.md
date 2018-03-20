@@ -1,5 +1,5 @@
 ---
-title: Java Methods
+title: Methods
 date: '2018-03-19T19:00:56-05:00'
 module: java
 order: 4
@@ -77,6 +77,3 @@ boolean didSendFirst = sendEmail("cwinton@truecoders.io"); // This call will ret
 
 boolean didSendSecond = sendEmail("dwalsh@truecoders.io"); // This call will return false
 ```
-
-**Previous:** [Types](types.markdown) |
-**Next:** [Operators](operators.markdown)

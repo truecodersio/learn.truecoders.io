@@ -1,5 +1,5 @@
 ---
-title: Java Classes
+title: Classes
 date: '2018-03-19T19:00:56-05:00'
 module: java
 order: 7
@@ -25,11 +25,11 @@ public class Animal
 {
     // We'll define a variable of type string called `name`
     private String name;
-    
+
     public String getName() {
         return name;
     }
-    
+
     public void setName(String name) {
         this.name = name;
     }
@@ -156,6 +156,3 @@ Later in your code:
 Animal aAnimal = new Animal(); // created with name equal to the default "Fido"
 Animal bAnimal = new Animal("Fluffy"); // created with name equal to "Fluffy"
 ```
-
-**Previous:** [Statements](statements.markdown) |
-**Next:** [Interfaces](interfaces.markdown)
