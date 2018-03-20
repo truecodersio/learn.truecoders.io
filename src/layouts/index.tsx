@@ -3,7 +3,7 @@
 import * as React from 'react'
 import Helmet from 'react-helmet'
 
-import Sidebar from '../components/Sidebar'
+import Sidebar, { SidebarProps } from '../components/Sidebar'
 import 'prismjs/themes/prism-okaidia.css'
 
 // Interfaces
@@ -36,12 +36,15 @@ interface IndexLayoutProps {
 // React Components
 
 const IndexLayout = ({ children, data }: IndexLayoutProps) => {
-  const sidebarItems = data.allMarkdownRemark.edges
-    .map(({ node }, index) => ({
-      path: node.fields.slug,
-      title: node.frontmatter.title,
-    }))
-    .filter(item => item.path != '/')
+  const sidebarProps: SidebarProps = {
+    items: data.allMarkdownRemark.edges
+      .map(({ node }, index) => ({
+        module: node.frontmatter.module,
+        path: node.fields.slug,
+        title: node.frontmatter.title,
+      }))
+      .filter(item => item.path != '/'),
+  }
 
   return (
     <div>
@@ -52,7 +55,7 @@ const IndexLayout = ({ children, data }: IndexLayoutProps) => {
           { name: 'keywords', content: 'sample, something' },
         ]}
       />
-      <Sidebar items={sidebarItems} />
+      <Sidebar {...sidebarProps} />
       <div
         style={{
           marginLeft: '384px',

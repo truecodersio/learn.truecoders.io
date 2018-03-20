@@ -1,16 +1,23 @@
+// Imports
+
 import * as React from 'react'
 import Link from 'gatsby-link'
 
 const logo = require('../../assets/logo-only.svg') as string
 
-interface SidebarProps {
+// Interfaces
+
+export interface SidebarProps {
   items: {
+    module: string
     path: string
     title: string
   }[]
 }
 
-class Sidebar extends React.Component<SidebarProps, {}> {
+// Classes
+
+export default class Sidebar extends React.Component<SidebarProps, {}> {
   render() {
     const items = this.props.items.map(item => (
       <li
@@ -22,10 +29,10 @@ class Sidebar extends React.Component<SidebarProps, {}> {
         <Link
           to={item.path}
           style={{
-            textDecoration: 'none'
+            textDecoration: 'none',
           }}
           activeStyle={{
-            textDecoration: 'none'
+            textDecoration: 'none',
           }}
           key={item.path}
         >
@@ -59,5 +66,3 @@ class Sidebar extends React.Component<SidebarProps, {}> {
     )
   }
 }
-
-export default Sidebar
