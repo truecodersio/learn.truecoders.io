@@ -1,18 +1,9 @@
 ---
-title: C#
+title: Introduction
 date: '2018-03-19T19:00:56-05:00'
 module: csharp
 order: 0
 ---
-
-* [Documentation and Resources](#documentation-and-resources)
-* [Source Code Comments](#source-code-comments)
-  * [Line Comment](#line-comment)
-  * [Block Comment](#block-comment)
-* [Source Code Line Termination](#source-code-line-termination)
-* [Case Sensitivity](#case-sensitivity)
-* [Output](#output)
-* [Material](#material)
 
 ## Documentation and Resources
 
@@ -57,7 +48,7 @@ var message = "Hello World";
 
 ## Case Sensitivity
 
-Unless otherwise specified, the C# language *IS* case sensitive. `User` is distict from `user`.
+Unless otherwise specified, the C# language _IS_ case sensitive. `User` is distict from `user`.
 
 ## Output
 

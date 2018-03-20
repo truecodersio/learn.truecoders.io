@@ -1,12 +1,9 @@
 ---
-title: C# Operators
+title: Operators
 date: '2018-03-19T19:00:56-05:00'
 module: csharp
-order: 4
+order: 5
 ---
-
-* [Math Operators](#math-operators)
-* [Logic Operators](#logic-operators)
 
 ## Math Operators
 
@@ -98,6 +95,3 @@ Exclaimation mark `!`, also called bang, is the operator for Logical "Not". "Not
 var aBool = !false; // aBool equals true
 var bBool = !true; // bBool equals false
 ```
-
-**Previous:** [Methods](methods.markdown) |
-**Next:** [Statements](statements.markdown)

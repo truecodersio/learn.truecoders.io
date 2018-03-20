@@ -1,19 +1,9 @@
 ---
-title: C# System Setup
+title: System Setup
+date: '2018-03-19T19:00:56-05:00'
+module: csharp
+order: 1
 ---
-
-* [Accounts](#accounts)
-* [Install Windows on Mac or Linux](#install-windows-on-mac-or-linux)
-  * [VirualBox](#virualbox)
-  * [Windows 10](#windows-10)
-  * [Install Windows on VirtualBox](#install-windows-on-virtualbox)
-* [Windows Setup](#windows-setup)
-* [Visual Studio IDE](#visual-studio-ide)
-* [ReSharper](#resharper)
-* [Lightweight Code Editor](#lightweight-code-editor)
-* [Source Control](#source-control)
-* [Other Tools](#other-tools)
-* [C# Material](#c-material)
 
 ## Accounts
 
@@ -76,4 +66,4 @@ During this course, you'll learn more about Source Control Management. For now, 
 
 ## C# Material
 
-Now that you're all setup, let's dive into our [C# Material Start](variables.markdown).
+Now that you're all setup, let's dive into our [C# Material Start](variables).

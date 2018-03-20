@@ -5,12 +5,6 @@ module: exercises
 order: 3
 ---
 
-* [Introduction](#introduction)
-* [Table Creation](#table-creation)
-* [Column Creation](#column-creation)
-* [Challenge](#challenge)
-  * [Schema Creation](#schema-creation)
-
 ## Introduction
 
 Ensure that you have [SSMS Setup](system.markdown), then follow the steps below.

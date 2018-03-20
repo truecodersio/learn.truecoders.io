@@ -1,14 +1,9 @@
 ---
-title: C# Variables
+title: Variables
 date: '2018-03-19T19:00:56-05:00'
 module: csharp
-order: 1
+order: 2
 ---
-
-* [Fundamentals](#fundamentals)
-* [Strong and Static Typing](#strong-and-static-typing)
-  * [Explicit Typing](#explicit-typing)
-  * [Type Inference](#type-inference)
 
 ## Fundamentals
 
@@ -78,5 +73,3 @@ newVal = "Testing new val"; // You'll never reach this line of code
 ```
 
 In C#, type inference is not required, but is considered "best practice".
-
-**Next:** [Types](types.markdown)

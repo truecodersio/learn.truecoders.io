@@ -1,17 +1,9 @@
 ---
-title: C# Classes
+title: Classes
 date: '2018-03-19T19:00:56-05:00'
 module: csharp
-order: 6
+order: 7
 ---
-
-* [Fundamentals](#fundamentals)
-* [Instances](#instances)
-* [Class Methods and Variables](#class-methods-and-variables)
-* [Inheritance](#inheritance)
-  * [Inheritance Exercise](#inheritance-exercise)
-* [Object Initializer](#object-initializer)
-* [Constructor](#constructor)
 
 ## Fundamentals
 
@@ -177,6 +169,3 @@ Later in your code:
 var aAnimal = new Animal(); // created with Name equal to "Fido"
 var bAnimal = new Animal("Fluffy"); // created with Name equal to "Fluffy"
 ```
-
-**Previous:** [Statements](statements.markdown) |
-**Next:** [Interfaces](interfaces.markdown)

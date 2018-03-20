@@ -1,20 +1,16 @@
 ---
-title: C# Methods
+title: Methods
 date: '2018-03-19T19:00:56-05:00'
 module: csharp
-order: 3
+order: 4
 ---
-
-* [Fundamentals](#fundamentals)
-* [Modifiers and Return Types](#modifiers-and-return-types)
-* [Parameters](#parameters)
 
 ## Fundamentals
 
 A method, sometimes called a function, is a block of code that contains a collection of code to execute. You can execute this code by calling the method. In C#, a method consists of a few things:
 
 * Modifiers: an optional list of keywords that give certain qualities to the method
-* Return Type: the [type](types.markdown) returned by the method, or `void` when not returning anything
+* Return Type: the [type](../types) returned by the method, or `void` when not returning anything
 * Name: a descriptive method name
 * Parameters: an optional list of parameters to be passed into the method
 * Scope: the block of code to be executed when the method is called
@@ -81,6 +77,3 @@ var didSendFirst = SendEmail("cwinton@truecoders.io"); // This call will return 
 
 var didSendSecond = SendEmail("dwalsh@truecoders.io"); // This call will return false
 ```
-
-**Previous:** [Types](types.markdown) |
-**Next:** [Operators](operators.markdown)

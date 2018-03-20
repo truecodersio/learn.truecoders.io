@@ -1,13 +1,9 @@
 ---
-title: C# Final Project
+title: Demo Project in C#
 date: '2018-03-19T19:00:56-05:00'
 module: exercises
 order: 2
 ---
-
-* [Introduction](#introduction)
-* [Objectives](#objectives)
-* [Inspriation](#inspriation)
 
 ## Introduction
 

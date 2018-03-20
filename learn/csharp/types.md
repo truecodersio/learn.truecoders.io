@@ -1,22 +1,9 @@
 ---
-title: C# Types
+title: Types
 date: '2018-03-19T19:00:56-05:00'
 module: csharp
-order: 2
+order: 3
 ---
-
-* [Value Types](#value-types)
-  * [Boolean](#boolean)
-  * [Character](#character)
-  * [Integer](#integer)
-  * [Decimal](#decimal)
-  * [Enum](#enum)
-  * [Additional Value Types](#additional-value-types)
-* [Null and Nullables](#null-and-nullables)
-* [Reference Types](#reference-types)
-  * [String](#string)
-  * [Array](#array)
-* [Reference vs. Value Types](#reference-vs-value-types)
 
 ## Value Types
 
@@ -185,7 +172,7 @@ a = 2; // Change the contained value of `a`
 
 With a reference type, when you copy a variable you create a clone of the reference to the same actual data value:
 
-Let's see how this works with a [class](classes.markdown#classes) called `Animal`.
+Let's see how this works with a [class](./classes) called `Animal`.
 
 ```csharp
 var c = new Animal { Name = "Fido" }; // reference type Animal
@@ -197,6 +184,3 @@ c.Name = "Fluffy";
 // You changed the property of the actual object
 // So now c.Name equals "Fluffy" && d.Name equals "Fluffy"
 ```
-
-**Previous:** [Variables](variables.markdown) |
-**Next:** [Methods](methods.markdown)

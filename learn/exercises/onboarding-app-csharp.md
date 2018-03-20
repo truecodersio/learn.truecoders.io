@@ -5,11 +5,6 @@ module: exercises
 order: 1
 ---
 
-* [Introduction](#introduction)
-* [Objectives](#objectives)
-* [App Requirements](#app-requirements)
-* [Challenge](#challenge)
-
 ## Introduction
 
 Welcome to your continued introduction to programming in this course! We're excited you're here. In this course, we're going to use C# to build an app that talks to you.
