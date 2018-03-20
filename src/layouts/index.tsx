@@ -1,8 +1,12 @@
+// Imports
+
 import * as React from 'react'
 import Helmet from 'react-helmet'
 
 import Sidebar from '../components/Sidebar'
 import 'prismjs/themes/prism-okaidia.css'
+
+// Interfaces
 
 interface IndexLayoutProps {
   children(): any
@@ -20,12 +24,16 @@ interface IndexLayoutProps {
           }
           frontmatter: {
             title: string
+            module: string
+            order: number
           }
         }
       }[]
     }
   }
 }
+
+// React Components
 
 const IndexLayout = ({ children, data }: IndexLayoutProps) => {
   const sidebarItems = data.allMarkdownRemark.edges
@@ -62,6 +70,8 @@ const IndexLayout = ({ children, data }: IndexLayoutProps) => {
 
 export default IndexLayout
 
+// GraphQL
+
 export const query = graphql`
   query IndexLayoutQuery {
     site {
@@ -77,6 +87,8 @@ export const query = graphql`
           }
           frontmatter {
             title
+            module
+            order
           }
         }
       }
