@@ -35,7 +35,7 @@ interface IndexLayoutProps {
 
 // React Components
 
-const IndexLayout = ({ children, data }: IndexLayoutProps) => {
+export default ({ children, data }: IndexLayoutProps) => {
   const sidebarProps: SidebarProps = {
     items: data.allMarkdownRemark.edges
       .map(({ node }, index) => ({
@@ -70,8 +70,6 @@ const IndexLayout = ({ children, data }: IndexLayoutProps) => {
     </div>
   )
 }
-
-export default IndexLayout
 
 // GraphQL
 
