@@ -80,7 +80,9 @@ export const query = graphql`
         title
       }
     }
-    allMarkdownRemark {
+    allMarkdownRemark(
+      sort: { fields: [frontmatter___module, frontmatter___order] }
+    ) {
       edges {
         node {
           fields {

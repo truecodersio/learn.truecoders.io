@@ -21,7 +21,7 @@ export default ({ data }: PageTemplateData) => {
   )
 }
 
-export const query = graphql`
+export const pageQuery = graphql`
   query PageQuery($slug: String!) {
     markdownRemark(fields: { slug: { eq: $slug } }) {
       html

@@ -19,27 +19,44 @@ export interface SidebarProps {
 
 export default class Sidebar extends React.Component<SidebarProps, {}> {
   render() {
-    const items = this.props.items.map(item => (
-      <li
-        style={{
-          listStyle: 'none outside',
-        }}
-        key={item.path}
-      >
-        <Link
-          to={item.path}
-          style={{
-            textDecoration: 'none',
-          }}
-          activeStyle={{
-            textDecoration: 'none',
-          }}
-          key={item.path}
-        >
-          {item.title}
-        </Link>
-      </li>
-    ))
+    let currentModule = ''
+
+    const items = this.props.items.map(item => {
+      let showHeader = false
+
+      if (currentModule !== item.module) {
+        showHeader = true
+        currentModule = item.module
+      } else {
+        showHeader = false
+      }
+
+      return (
+        <div>
+          {showHeader && <br />}
+          {showHeader && <h3>{currentModule}</h3>}
+          <li
+            style={{
+              listStyle: 'none outside',
+            }}
+            key={item.path}
+          >
+            <Link
+              to={item.path}
+              style={{
+                textDecoration: 'none',
+              }}
+              activeStyle={{
+                textDecoration: 'none',
+              }}
+              key={item.path}
+            >
+              {item.title}
+            </Link>
+          </li>
+        </div>
+      )
+    })
 
     return (
       <div
