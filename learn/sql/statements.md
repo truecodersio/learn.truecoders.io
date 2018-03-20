@@ -1,14 +1,9 @@
 ---
-title: SQL Statements
+title: Statements
 date: '2018-03-19T19:00:56-05:00'
 module: sql
 order: 2
 ---
-
-* [SELECT](#select)
-* [INSERT](#insert)
-* [UPDATE](#update)
-* [DELETE](#delete)
 
 In the world of data manipulation, the acronym CRUD (Create, Read, Update, Delete) has become popular, since CRUD encapulates all the possible data manipulation actions:
 
@@ -94,6 +89,3 @@ DELETE FROM phone_book WHERE Name = 'Cody Winton';
 ```
 
 **Note:** Without the `WHERE` clause in the `DELETE` statement, every record in our table will be deleted.
-
-**Previous:** [System Setup](system.markdown) |
-**Next:** [Modifiers](modifiers.markdown)

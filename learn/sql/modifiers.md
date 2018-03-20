@@ -1,19 +1,9 @@
 ---
-title: SQL Modifiers
+title: Modifiers
 date: '2018-03-19T19:00:56-05:00'
 module: sql
 order: 3
 ---
-
-* [Operators](#operators)
-* [WHERE](#where)
-* [AND, OR, NOT](#and-or-not)
-* [ORDER BY](#order-by)
-* [IS NULL, IS NOT NULL](#is-null-is-not-null)
-* [SELECT DISTINCT](#select-distinct)
-* [LIKE](#like)
-* [COUNT, SUM, AVG](#count-sum-avg)
-* [Aliases](#aliases)
 
 ANSI SQL provides additional statement keywords that can be used in tandem with the four CRUD statements to modify the results. We've included several below, but there are a ton of other modifiers available in ANSI SQL. Check it out on [W3 Schools](https://www.w3schools.com/sql/default.asp).
 
@@ -207,6 +197,3 @@ SELECT o.OrderID, o.OrderDate, c.CustomerName
 FROM Customers AS c, Orders AS o
 WHERE c.CustomerName = "Around the Horn" AND c.CustomerID = o.CustomerID;
 ```
-
-**Previous:** [Statements](statements.markdown) |
-**Next:** [Data](data.markdown)

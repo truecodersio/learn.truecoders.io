@@ -1,21 +1,9 @@
 ---
-title: SQL
+title: Introduction
 date: '2018-03-19T19:00:56-05:00'
 module: sql
 order: 0
 ---
-
-* [Documentation and Resources](#documentation-and-resources)
-* [Introduction](#introduction)
-* [SQL Implementations](#sql-implementations)
-* [ANSI SQL](#ansi-sql)
-* [Source Code Comments](#source-code-comments)
-  * [Line Comment](#line-comment)
-  * [Block Comment](#block-comment)
-* [Source Code Line Termination](#source-code-line-termination)
-* [Case Sensitivity](#case-sensitivity)
-* [Material](#material)
-* [Exercises](#exercises)
 
 ## Documentation and Resources
 

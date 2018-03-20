@@ -1,14 +1,9 @@
 ---
-title: SQL Injection
+title: Injection
 date: '2018-03-19T19:00:56-05:00'
 module: sql
 order: 5
 ---
-
-* [Introduction](#introduction)
-* [Malicious](#malicious)
-* [Invalid Input](#invalid-input)
-* [Parameterized Statements](#parameterized-statements)
 
 ## Introduction
 
@@ -94,6 +89,3 @@ The resulting SQL statement will be:
 ```sql
 INSERT INTO Product (Name) VALUES ('Bicycle');
 ```
-
-**Previous:** [Data](data.markdown) |
-**Next:** [Joins](joins.markdown)
