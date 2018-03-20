@@ -28,7 +28,8 @@
     "gatsby-source-filesystem": "^1.5.27",
     "gatsby-transformer-remark": "^1.7.37",
     "gatsby-transformer-yaml": "^1.5.16",
-    "react-helmet": "^5.2.0"
+    "react-helmet": "^5.2.0",
+    "semantic-ui-react": "^0.79.0"
   },
   "devDependencies": {}
 }
