@@ -1,5 +1,8 @@
 ---
 title: Definitions
+date: '2018-03-19T19:00:56-05:00'
+module: general
+order: 0
 ---
 
 ## Acronyms
