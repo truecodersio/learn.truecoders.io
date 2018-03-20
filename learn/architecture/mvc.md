@@ -25,5 +25,3 @@ Views are the components that display the application's user interface (UI). Typ
 ## Controller
 
 Controllers are the components that handle user interaction, work with the model, and ultimately select a view to render that displays UI. In an MVC application, the view only displays information; the controller handles and responds to user input and interaction. For example, the controller handles query-string values, and passes these values to the model, which in turn might use these values to query the database.
-
-**Next:** [Inversion of Control](ioc.markdown)

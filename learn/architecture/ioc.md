@@ -71,5 +71,3 @@ public class HomeController {
 ```
 
 The benefit here over the constructor is that you don't have to have a Mega Constructor when there are lots of dependencies. The downside is that for other uses where the class truly requires it, then it's not guaranteed after construction. That's why this is best reserved solely for Controllers.
-
-**Previous:** [Model View Controller](mvc.markdown)
