@@ -1,5 +1,8 @@
 ---
-title: "SQL: Structured Query Language"
+title: SQL
+date: '2018-03-19T19:00:56-05:00'
+module: sql
+order: 0
 ---
 
 * [Documentation and Resources](#documentation-and-resources)
