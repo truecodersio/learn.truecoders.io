@@ -1,14 +1,9 @@
 ---
 title: Architecture
+date: '2018-03-19T19:00:56-05:00'
 module: architecture
 order: 0
 ---
-
-* [Documentation and Resources](#documentation-and-resources)
-* [Introduction](#introduction)
-* [Goals](#goals)
-* [Material](#material)
-
 ## Documentation and Resources
 
 As we go into details of any programming tool, you'll find that documentation is your best friend for learning and improving your tool skill set:
@@ -32,8 +27,3 @@ You should design your architecture with a few things in mind:
 * Your architecture should make your app's purpose and intent apparent quickly.
 * Your architecture should make abstraction and testing a normal, simple process.
 * Your architecture should always support best practices.
-
-## Material
-
-* [Model View Controller](mvc.markdown)
-* [Inversion of Control](ioc.markdown)
