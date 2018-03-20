@@ -15,7 +15,7 @@ class Sidebar extends React.Component<SidebarProps, {}> {
     const items = this.props.items.map(item => (
       <li
         style={{
-          listStyleType: 'none',
+          listStyle: 'none outside',
         }}
         key={item.path}
       >
@@ -35,11 +35,15 @@ class Sidebar extends React.Component<SidebarProps, {}> {
           top: 0,
           left: 0,
           overflowX: 'hidden',
-          padding: '32px 48px',
+          padding: '32px 16px',
         }}
       >
         <Link to="/">
-          <img src={logo} alt="Logo" style={{ width: '80px' }} />
+          <img
+            src={logo}
+            alt="Logo"
+            style={{ width: '80px', marginLeft: '32px' }}
+          />
         </Link>
         <ul>{items}</ul>
       </div>
