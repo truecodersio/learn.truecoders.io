@@ -11,7 +11,7 @@ Inversion of Control (IoC) is a design principle in which custom-written portion
 
 Inversion of Control conforms to the Hollywood Principle ("Don't call us. We'll call you."). In this case, and object doesn't call for its own dependencies; it recieves its dependencies at creation from some Dependency Injector object.
 
-![IoC](ioc.png "IoC")
+![IoC](../images/ioc.png "IoC")
 
 ## Reflection
 
