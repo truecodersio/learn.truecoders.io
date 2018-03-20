@@ -19,7 +19,16 @@ class Sidebar extends React.Component<SidebarProps, {}> {
         }}
         key={item.path}
       >
-        <Link to={item.path} key={item.path}>
+        <Link
+          to={item.path}
+          style={{
+            textDecoration: 'none'
+          }}
+          activeStyle={{
+            textDecoration: 'none'
+          }}
+          key={item.path}
+        >
           {item.title}
         </Link>
       </li>
