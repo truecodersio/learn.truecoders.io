@@ -7,6 +7,7 @@ module.exports = {
     `gatsby-plugin-netlify-cms`,
     'gatsby-plugin-react-helmet',
     `gatsby-plugin-sharp`,
+    `gatsby-transformer-yaml`,
     `gatsby-plugin-typescript`,
     {
       resolve: `gatsby-transformer-remark`,
