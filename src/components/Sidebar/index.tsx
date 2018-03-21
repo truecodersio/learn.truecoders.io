@@ -22,18 +22,11 @@ export default class Sidebar extends React.Component<SidebarProps, {}> {
     let currentModule = ''
 
     const items = this.props.items.map(item => {
-      let showHeader = false
-
-      if (currentModule !== item.module) {
-        showHeader = true
-        currentModule = item.module
-      } else {
-        showHeader = false
-      }
+      const showHeader = currentModule !== item.module
+      currentModule = item.module
 
       return (
         <div>
-          {showHeader && <br />}
           {showHeader && <h3>{currentModule}</h3>}
           <li
             style={{
