@@ -11,7 +11,7 @@ Variables, sometimes called properties, are a core concept of programming. Simil
 
 In Java, variables have a few different parts:
 
-* Type: the variable's [type](/java/types)
+* Type: the variable's type
 * Name: a descriptive variable name
 * Value: the variable's value
 
@@ -31,7 +31,7 @@ Finally, the line of code is terminated with a semicolon: `;`.
 
 Java is a strongly, statically typed language, meaning that every variable has a type at compile time and you can't a variable's type after it has been set, though you can change its value.
 
-Java requires explicit typing for any variable. Let's see this in action as we define a few [String](/java/types#string) variables:
+Java requires explicit typing for any variable. Let's see this in action as we define a few String variables:
 
 ```java
 String aString = "This is a String";

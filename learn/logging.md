@@ -7,14 +7,6 @@ order: 2
 
 You don't always have access to the debugger. When you're in production, you still need to know what's going on with your app. That's where logging comes in.
 
-* [Log Levels](#log-levels)
-  * [Fatal: The Most Severe Log](#fatal-the-most-severe-log)
-  * [Error: Something Bad Happened](#error-something-bad-happened)
-  * [Warning: Something Unusual Happened](#warning-something-unusual-happened)
-  * [Info: Just Thought You Should Know](#info-just-thought-you-should-know)
-  * [Debug/Trace: Extremely Verbose](#debugtrace-extremely-verbose)
-* [Rolling Logs](#rolling-logs)
-
 ## Log Levels
 
 Sometimes we just want the CliffsNotes, while other times we want everything. So, to handle this, we have multiple log levels:

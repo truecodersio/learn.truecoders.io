@@ -11,15 +11,6 @@ When you run into an issue in a language like C#, assume it's a problem with you
 
 Don't go chasing zebras: If you see hoof prints, you should probably think horse, not zebra.
 
-* [Diagnostic Steps](#diagnostic-steps)
-  * [Define the Problem](#define-the-problem)
-  * [Reproduce the Issue](#reproduce-the-issue)
-  * [Determine the Nature of the Problem](#determine-the-nature-of-the-problem)
-  * [Find the Error Message](#find-the-error-message)
-  * [Google Like a Pro](#google-like-a-pro)
-  * [Confirm the Fix](#confirm-the-fix)
-  * [Write a Test](#write-a-test)
-
 ## Diagnostic Steps
 
 These diagnostic steps will help you solve any problem in software:

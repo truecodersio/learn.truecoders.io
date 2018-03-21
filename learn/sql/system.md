@@ -36,7 +36,3 @@ Before we do anything, we've got to get connected to a server. Use the following
 * Auth Type: "SQL Server Authentication"
 * Username: `developer`
 * Password: `4TrueCodersOnly!`
-
-## SQL Material
-
-Now that you're all setup, let's dive into our [SQL Statements](statements).

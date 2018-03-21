@@ -5,10 +5,6 @@ module: exercises
 order: 3
 ---
 
-## Introduction
-
-Ensure that you have [SSMS Setup](/sql/system), then follow the steps below.
-
 ## Table Creation
 
 There is SQL syntax for Creating Tables, but it is NOT ANSI SQL. The syntax varies across implementations. So we'll teach the GUI, and talk about strategies for managing it:

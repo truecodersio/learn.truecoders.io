@@ -64,7 +64,3 @@ Output:
 ```output
 Message to write out
 ```
-
-## Material
-
-Awesome, let's get your [System Setup](system) and move onto our materials.

@@ -76,12 +76,3 @@ SELECT * FROM Customers;
 Unless otherwise specified, SQL *IS NOT* case sensitive. For example, `select` is synonymous with `SELECT`.
 
 However, SQL naming convention usually has keywords in ALL CAPS. We will do the same.
-
-## Material
-
-Awesome, let's get your [System Setup](/sql/system) and move onto our materials:
-
-## Exercises
-
-* [Microsoft SQL Reporting](/exercises/reporting-sql)
-* [SqlIntro](https://github.com/truecodersio/SqlIntro)

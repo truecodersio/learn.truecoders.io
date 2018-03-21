@@ -11,7 +11,7 @@ Variables, sometimes called properties, are a core concept of programming. Simil
 
 In C#, variables have a few different parts:
 
-* Type: the variable's [type](/csharp/types)
+* Type: the variable's type
 * Name: a descriptive variable name
 * Value: the variable's value
 
@@ -33,7 +33,7 @@ C# is a strongly, statically typed language, meaning that every variable has a t
 
 ### Explicit Typing
 
-C# allows for explicit typing of any variable. Let's see this in action as we define a few [String](/csharp/types#string) variables:
+C# allows for explicit typing of any variable. Let's see this in action as we define a few String variables:
 
 ```csharp
 string aString = "This is a String";

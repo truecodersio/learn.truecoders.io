@@ -66,4 +66,4 @@ During this course, you'll learn more about Source Control Management. For now, 
 
 ## C# Material
 
-Now that you're all setup, let's dive into our [C# Material Start](variables).
+Now that you're all setup, let's dive into our [C# Material Start](/csharp/variables).

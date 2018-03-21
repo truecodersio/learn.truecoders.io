@@ -5,26 +5,6 @@ module: general
 order: 0
 ---
 
-* [Introduction](#introduction)
-* [Documentation and Resources](#documentation-and-resources)
-* [Source Code Comments](#source-code-comments)
-  * [Line Comment](#line-comment)
-* [Git Commands](#git-commands)
-  * [Init](#init)
-  * [Status](#status)
-  * [Add](#add)
-  * [Commit](#commit)
-  * [Log](#log)
-  * [Remote](#remote)
-  * [Push](#push)
-  * [Pull](#pull)
-  * [Diff](#diff)
-  * [Reset](#reset)
-  * [Checkout](#checkout)
-  * [Branch](#branch)
-  * [Merge](#merge)
-  * [Remove](#remove)
-
 ## Introduction
 
 Unlike some of the competition:
