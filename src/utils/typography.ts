@@ -40,22 +40,22 @@ const typography = new Typography({
       color: 'inherit',
     },
     h1: {
-      marginTop: '2.0em'
+      marginTop: '2.0em',
     },
     h2: {
-      marginTop: '1.5em'
+      marginTop: '1.5em',
     },
     h3: {
-      marginTop: '1.4em'
+      marginTop: '1.4em',
     },
     h4: {
-      marginTop: '1.3em'
+      marginTop: '1.3em',
     },
     h5: {
-      marginTop: '1.2em'
+      marginTop: '1.2em',
     },
     h6: {
-      marginTop: '1.1em'
+      marginTop: '1.1em',
     }
   }),
 })

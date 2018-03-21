@@ -26,13 +26,12 @@ export default class Sidebar extends React.Component<SidebarProps, {}> {
       currentModule = item.module
 
       return (
-        <div>
+        <div key={item.path}>
           {showHeader && <h3>{currentModule}</h3>}
           <li
             style={{
               listStyle: 'none outside',
             }}
-            key={item.path}
           >
             <Link
               to={item.path}
@@ -42,7 +41,6 @@ export default class Sidebar extends React.Component<SidebarProps, {}> {
               activeStyle={{
                 textDecoration: 'none',
               }}
-              key={item.path}
             >
               {item.title}
             </Link>
