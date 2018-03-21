@@ -7,7 +7,7 @@ order: 4
 
 ## Statement Data
 
-Data is often included in [SQL Statements](statements.markdown) like `SELECT` and almost always included in `INSERT`, `UPDATE`, and `DELETE` statements. Here's the data you'll use:
+Data is often included in [SQL Statements](sql/statements) like `SELECT` and almost always included in `INSERT`, `UPDATE`, and `DELETE` statements. Here's the data you'll use:
 
 ### String
 

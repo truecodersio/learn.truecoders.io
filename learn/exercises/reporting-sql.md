@@ -7,7 +7,7 @@ order: 3
 
 ## Introduction
 
-Ensure that you have [SSMS Setup](system.markdown), then follow the steps below.
+Ensure that you have [SSMS Setup](/sql/system), then follow the steps below.
 
 ## Table Creation
 

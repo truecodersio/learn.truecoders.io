@@ -194,7 +194,7 @@ a = 2; // Change the contained value of `a`
 
 With a reference type, when you copy a variable you create a clone of the reference to the same actual data value:
 
-Let's see how this works with a [class](classes.markdown#classes) called `Animal`.
+Let's see how this works with a [class](/java/classes) called `Animal`.
 
 ```java
 Animal c = new Animal("Fido"); // reference type Animal

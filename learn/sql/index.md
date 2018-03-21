@@ -79,16 +79,9 @@ However, SQL naming convention usually has keywords in ALL CAPS. We will do the 
 
 ## Material
 
-Awesome, let's get your [System Setup](system.markdown) and move onto our materials:
-
-* [Statements](statements.markdown)
-* [Modifiers](modifiers.markdown)
-* [Data](data.markdown)
-* [Injection](injection.markdown)
-* [Joins](joins.markdown)
-* [Performance](performance.markdown)
+Awesome, let's get your [System Setup](/sql/system) and move onto our materials:
 
 ## Exercises
 
-* [Microsoft SQL Reporting](exercises/reporting.markdown)
+* [Microsoft SQL Reporting](/exercises/reporting-sql)
 * [SqlIntro](https://github.com/truecodersio/SqlIntro)
