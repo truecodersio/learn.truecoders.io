@@ -73,6 +73,6 @@ SELECT * FROM Customers;
 
 ## Case Sensitivity
 
-Unless otherwise specified, SQL *IS NOT* case sensitive. For example, `select` is synonymous with `SELECT`.
+Unless otherwise specified, SQL **IS NOT** case sensitive. For example, `select` is synonymous with `SELECT`.
 
 However, SQL naming convention usually has keywords in ALL CAPS. We will do the same.

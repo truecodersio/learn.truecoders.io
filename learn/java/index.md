@@ -47,7 +47,7 @@ String message = "Hello World";
 
 ## Case Sensitivity
 
-Unless otherwise specified, the Java language *IS* case sensitive. `User` is distict from `user`.
+Unless otherwise specified, the Java language **IS** case sensitive. `User` is distict from `user`.
 
 ## Output
 

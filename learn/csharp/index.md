@@ -48,7 +48,7 @@ var message = "Hello World";
 
 ## Case Sensitivity
 
-Unless otherwise specified, the C# language _IS_ case sensitive. `User` is distict from `user`.
+Unless otherwise specified, the C# language **IS** case sensitive. `User` is distict from `user`.
 
 ## Output
 
