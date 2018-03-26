@@ -45,6 +45,14 @@ Some of these questions you can find answers to before the interview, while some
 
 This is not complicated. Figure out how much time it will take you to travel to the interview location 30 minutes early, accounting for traffic, weather, and potential traffic accidents or other stand stills.
 
+## Dress Appropriately
+
+If everyone in the company you're applying at wears suits and ties, don't show up in jeans and a t-shirt. Conversely, a suit probably won't be received well at a company where the dress code is that there isn't a dress code.
+
+A good rule of thumb is to dress one notch above the standard of the company. If everyone is in jeans and t-shirts, wear jeans with a casual button down shirt.
+
+Also, remember good hygiene.
+
 ## Humble Confidence
 
 If you know the topic that you're being asked about, approach the topic with confidence. No need to apoligize for lack of perfection; no one expects you to be perfect. Approach the topic with a confident attitude.
