@@ -37,6 +37,10 @@ Try to understand fully the job that you're applying for:
 
 Some of these questions you can find answers to before the interview, while some may be best answered during an interview.
 
+## Practice
+
+Remember that most technical interviews will have technical questions and at least one whiteboard coding challenge. Practice your knowledge and practice writing code on a whiteboard.
+
 ## Arrive Early
 
 * If you're 30 minutes early, you're on time.
@@ -68,3 +72,9 @@ If you aren't quite sure what the interviewer is requesting of you, be sure to a
 ## Deal Negotiation
 
 Just because you're the one interviewing doesn't mean that you have no leverage. Many job positions at companies are filling real, urgent needs that a company has. The company needs the position filled just like you need a job. Don't be afraid to negotiate any job offers that you receive. This is especially easy if you have multiple offers on the table.
+
+## Follow Up
+
+Follow up. Follow up. Follow up.
+
+Get the email of the interviewer and follow up via. email. Give the company a call. Keep yourself on the company's radar.
