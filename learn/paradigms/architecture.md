@@ -1,8 +1,8 @@
 ---
 title: Architecture
 date: '2018-03-19T19:00:56-05:00'
-module: architecture
-order: 0
+module: paradigms
+order: 1
 ---
 
 ## Documentation and Resources
