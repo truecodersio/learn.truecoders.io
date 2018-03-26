@@ -20,7 +20,7 @@ OOP is a big subject, but the majority of its concepts can be boiled down to fou
 
 ## Inheritance
 
-In OOP, inheritance is the concept that a child class or type can inherit functionality from its parent.
+In OOP, inheritance is the concept that a child class or type can inherit functionality from its parent. You can think of inheritance as a parent/child relationship.
 
 Let's say you had a class called person:
 
@@ -81,7 +81,9 @@ We automatically get the `Name` property from our `Person` parent class, and we 
 
 ## Polymorphism
 
-In OOP, polymorphism is the concept that two or more different classes/types with differing implementations can be referenced or called in a similar fashion. We already saw one example of polymorphism in the [inheritance](#inheritance) section, with our `Employee` overriding the implementation of the `SayName` method. Still the same method signature, called with the same method name, yet different implementations. Let's break down some other examples of polymorphism:
+In OOP, polymorphism is the concept that two or more different classes/types with differing implementations can be referenced or called in a similar fashion.
+
+We already saw one example of polymorphism in the [inheritance](#inheritance) section, with our `Employee` overriding the implementation of the `SayName` method. Still the same method signature, called with the same method name, yet different implementations. Let's break down some other examples of polymorphism:
 
 ### Generics
 
@@ -122,6 +124,53 @@ var head2 = new Node<string> { Value = "What", Left = left2, Right = right2 };
 ```
 
 We can now use the same Node type for storing a binary tree of numbers or strings.
+
+## Encapsulation
+
+In OOP, encapsulation is the concept that a class or type will only expose the functionality necessary to accomplish a given goal, hiding or encapsulating any remaining functionality.
+
+A good real world example of encapsulation is a car. A car may have a great deal of moving parts, such as the engine, brakes, and the transmission, but all of that is hidden under the hood. What is exposed to the driver is the bare essentials for driving, such as a steering wheel, gas pedal, and brake pedal.
+
+Let's say you had a class called BankAccount:
+
+```csharp
+public class BankAccount
+{
+    private decimal Balance { get; set; } = 500.0m;
+}
+
+// Later in code
+var account = new BankAccount();
+var balance = account.Balance();
+
+Console.WriteLine($"My account balance is: {balance}");
+
+account.balance = 1000000.0m; // This will successfully change the balance
+```
+
+The problem with this implementation is that our Bank Account's balance can be changed by any part of our application. Our balance probably shouldn't be able to be changed in code unless that change is reflected in our server. Let's refactor:
+
+```csharp
+public class BankAccount
+{
+    private decimal balance = 500.0m;
+
+    public decimal CheckBalance()
+    {
+        return balance;
+    }
+}
+
+// Later in code
+var account = new BankAccount();
+var balance = account.CheckBalance();
+
+Console.WriteLine($"My account balance is: {balance}");
+
+account.balance = 1000000.0m; // This will fail
+```
+
+Now, we've exposed the functionality to check the Balance, yet restricted the ability to change the balance directly.
 
 ## Look for Nouns and Verbs
 
