@@ -22,6 +22,7 @@ order: 1
 | **IDE**         | Integrated Development Environment                                | Programming          |
 | **IoC**         | Inversion of Control                                              | Architecture         |
 | **JSON**        | JavaScript Object Notation                                        | Programming          |
+| **KISS**        | Keep it Simple, Stupid                                            | Programming          |
 | **LOC**         | Lines of Code                                                     | Programming          |
 | **MVC**         | Model, View, Controller                                           | Architecture         |
 | **NAS**         | Network Attached Storage                                          | General              |
@@ -31,7 +32,7 @@ order: 1
 | **RDP**         | Remote Desktop Protocol                                           | General              |
 | **REST**        | Representational State Transfer                                   | Web Development      |
 | **REST API**    | Representational State Transfer Application Programming Interface | Programming          |
-| **RTFM**        | Read the F**king Manual                                           | Programming          |
+| **RTFM**        | Read the F\*\*king Manual                                         | Programming          |
 | **SCM**         | Source Control Management                                         | Programming          |
 | **SLOC**        | Source Lines of Code                                              | Programming          |
 | **SQL**         | Structured Query Language                                         | Programming          |
