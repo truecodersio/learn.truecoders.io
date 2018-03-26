@@ -1,6 +1,6 @@
 import * as Typography from 'typography'
 
-const typography = new Typography({
+export default new Typography({
   baseFontSize: '18px',
   baseLineHeight: 1.45,
   bodyWeight: '500',
@@ -59,5 +59,3 @@ const typography = new Typography({
     }
   }),
 })
-
-export default typography
