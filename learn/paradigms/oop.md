@@ -34,6 +34,10 @@ public class Person
         Console.WriteLine("My name is: " + this.Name);
     }
 }
+
+// Later in code
+var person = new Person { Name = "Cody" };
+person.SayName(); // "My name is: Cody"
 ```
 
 You also want to add a class called Employee:
@@ -46,9 +50,13 @@ public class Employee
 
     public void SayName()
     {
-        Console.WriteLine("My name is: " + this.Name + "and my Id is:" + this.Id);
+        Console.WriteLine("My name is: " + this.Name + " and my Id is: " + this.Id);
     }
 }
+
+// Later in code
+var employee = new Employee { Name = "Cody", Id = 432 };
+employee.SayName(); // "My name is: Cody and my Id is: 432"
 ```
 
 We can see that we're repeating ourselves unnecessarily. Let's refactor our Employee class:
@@ -60,12 +68,60 @@ public class Employee : Person
 
     public override void SayName()
     {
-        Console.WriteLine("My name is: " + this.Name + "and my Id is:" + this.Id);
+        Console.WriteLine("My name is: " + this.Name + " and my Id is: " + this.Id);
     }
 }
+
+// Later in code
+var employee = new Employee { Name = "Cody", Id = 432 };
+employee.SayName(); // "My name is: Cody and my Id is: 432"
 ```
 
 We automatically get the `Name` property from our `Person` parent class, and we can override the `SayName` functionality to provide the data that we want for our employee.
+
+## Polymorphism
+
+In OOP, polymorphism is the concept that two or more different classes/types with differing implementations can be referenced or called in a similar fashion. We already saw one example of polymorphism in the [inheritance](#inheritance) section, with our `Employee` overriding the implementation of the `SayName` method. Still the same method signature, called with the same method name, yet different implementations. Let's break down some other examples of polymorphism:
+
+### Generics
+
+Let's say you create a `Node` class for creating Binary Trees:
+
+```csharp
+public class Node
+{
+    public int Value { get; set; }
+    public Node Left { get; set; }
+    public Node Right { get; set; }
+}
+
+// Later in code
+var left = new Node { Value = 2 };
+var right = new Node { Value = 3 };
+var head = new Node { Value = 1, Left = left, Right = right };
+```
+
+This Node can store a number value, a left Node, and a right Node. But, what if you want to expand the Node to store strings? We can expand our Node type to support Generics:
+
+```csharp
+public class Node<T>
+{
+    public T Value { get; set; }
+    public Node Left { get; set; }
+    public Node Right { get; set; }
+}
+
+// Later in code
+var left1 = new Node<int> { Value = 2 };
+var right1 = new Node<int> { Value = 3 };
+var head1 = new Node<int> { Value = 1, Left = left1, Right = right1 };
+
+var left2 = new Node<string> { Value = "Is" };
+var right2 = new Node<string> { Value = "Up?" };
+var head2 = new Node<string> { Value = "What", Left = left2, Right = right2 };
+```
+
+We can now use the same Node type for storing a binary tree of numbers or strings.
 
 ## Look for Nouns and Verbs
 
