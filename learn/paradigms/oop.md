@@ -172,6 +172,17 @@ account.balance = 1000000.0m; // This will fail
 
 Now, we've exposed the functionality to check the Balance, yet restricted the ability to change the balance directly.
 
+## Abstraction
+
+In OOP, abstraction is the concept that software should be built in abstract sections that can be combined together into a cohesive whole, as opposed to building code where everything is tightly coupled and difficult to break apart.
+
+Think of a swiss army knife vs. a chisel
+
+* A swiss army knife can be used for a bunch of tasks, but its ability to perform is less than optimal for each one of those tasks.
+* A chisel does one thing; and it does it damn well.
+
+Build chisels; not swiss army knifes.
+
 ## Look for Nouns and Verbs
 
 OOP is a big idea and it can be difficult at times to break down the concepts when building your software. Here are a few tips to help you out:
