@@ -226,6 +226,7 @@ public class User
 
 OOP helps you conform to some other key principles of programming:
 
-* Don't Repeat Yourself (DRY): Writing the exact same code multiple times doesn't make sense. Use OOP to help you avoid repetition
-* Clear Concise Readable (CCR): Your code should be extremely clear, should avoid unnecessary verbosity, and maintain good readablility
+* Don't Repeat Yourself (DRY): Writing the exact same code multiple times doesn't make sense. Use OOP to help you avoid repetition.
+* Clear Concise Readable (CCR): Your code should be extremely clear, should avoid unnecessary verbosity, and maintain good readablility.
 * Keep it Simple, Stupid (KISS): Pretty self explainitory; don't add unnecessary complexity.
+* Single Responsibility Principle (SRP): Each part of your software should do one thing, and do it really well.
