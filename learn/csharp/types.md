@@ -117,6 +117,15 @@ You can concatenate strings with the `+` symbol:
 var message = "What's " + "up?"; // message equals "What's up?"
 ```
 
+You can also perform string interpolation:
+
+```csharp
+var name = "Cody Winton";
+var message = String.Format("My name is {0}?", name); // equals "My name is Cody Winton?"
+
+var otherMessage = $"My name is {name}?"; // also equals "My name is Cody Winton?"
+```
+
 You can split a single string into an [array](#array) of strings:
 
 ```csharp

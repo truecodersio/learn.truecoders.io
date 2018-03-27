@@ -126,6 +126,13 @@ You can concatenate strings with the `+` symbol:
 String message = "What's " + "up?"; // message equals "What's up?"
 ```
 
+You can also perform string interpolation:
+
+```java
+String name = "Cody Winton";
+String message = String.format("My name is %s?", name); // message equals "My name is Cody Winton?"
+```
+
 You can split a single string into an [array](#array) of strings:
 
 ```java
