@@ -13,8 +13,8 @@ module.exports = {
       options: {
         plugins: [
           `gatsby-remark-prismjs`,
-          `gatsby-remark-autolink-headers`,
           `gatsby-remark-copy-images`,
+          `gatsby-remark-autolink-headers`,
           {
             resolve: `gatsby-remark-images`,
             options: {
