@@ -34,10 +34,10 @@ Java is a strongly, statically typed language, meaning that every variable has a
 Java requires explicit typing for any variable. Let's see this in action as we define a few String variables:
 
 ```java
-String aString = "This is a String";
-String aVal = "Can be 123 or @ or # or any other characters!";
+String aString = "This is a String value";
+String aVal = "Can be 123 or @ or # or any other characters!"; // Testing
 
-aVal = "Modified string"; // The value of a variable can be changed
+aVal = "Testing val"; // The value of a variable can be changed
 
 // This below would fail. 123 is not a string, since it is not surrounded by quotes
 aVal = 123; // fails

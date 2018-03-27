@@ -39,7 +39,7 @@ C# allows for explicit typing of any variable. Let's see this in action as we de
 string aString = "This is a String";
 string aVal = "Can be 123 or @ or # or any other characters!";
 
-aVal = "Modified string"; // The value of a variable can be changed
+aVal = "Testing val"; // The value of a variable can be changed
 
 // This below would fail. 123 is not a string, since it is not surrounded by quotes
 aVal = 123; // fails
@@ -59,7 +59,7 @@ The keyword `var` allows the compiler to infer type at compile time based on the
 var aString = "This is a String";
 var aVal = "Can be 123 or @ or # or any other characters!";
 
-aVal = "Modified string"; // The value of a variable can be changed
+aVal = "Testing val"; // The value of a variable can be changed
 
 // This below would fail. 123 is not a string, since it is not surrounded by quotes
 aVal = 123; // fails
