@@ -1,8 +1,8 @@
 ---
-title: System Setup
+title: Student Onboarding
 date: '2018-03-19T19:00:56-05:00'
 module: course
-order: 1
+order: 0
 ---
 
 ## Accounts
