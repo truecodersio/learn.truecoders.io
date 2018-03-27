@@ -3,7 +3,6 @@
 import Typography = require('typography')
 
 export default new Typography({
-  baseFontSize: '18px',
   baseLineHeight: 1.45,
   bodyWeight: '500',
   bodyColor: '#343a40',
@@ -58,6 +57,13 @@ export default new Typography({
     },
     h6: {
       marginTop: '1.1em',
+    },
+    ':not(pre) > code:not([class*="language-"])': {
+      padding: '.3em',
+      borderRadius: '.3em',
+      whiteSpace: 'normal',
+      background: '#f6f6f6',
+      fontSize: '1em',
     },
   }),
 })
