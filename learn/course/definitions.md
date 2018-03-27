@@ -1,11 +1,13 @@
 ---
 title: Definitions
 date: '2018-03-19T19:00:56-05:00'
-module: tools
-order: 1
+module: course
+order: 2
 ---
 
 ## Acronyms
+
+Throughout this course, we will be using a variety of acronyms. Here's a running list of some of the most popular:
 
 | Acronym         | Definition                                                        | Topic                |
 | --------------- | ----------------------------------------------------------------- | -------------------- |
@@ -32,7 +34,7 @@ order: 1
 | **RDP**         | Remote Desktop Protocol                                           | General              |
 | **REST**        | Representational State Transfer                                   | Web Development      |
 | **REST API**    | Representational State Transfer Application Programming Interface | Programming          |
-| **RTFM**        | Read the F\*\*king Manual                                         | Programming          |
+| **RTFM**        | Read the F*cking Manual                                           | Programming          |
 | **SCM**         | Source Control Management                                         | Programming          |
 | **SLOC**        | Source Lines of Code                                              | Programming          |
 | **SQL**         | Structured Query Language                                         | Programming          |
@@ -47,6 +49,8 @@ order: 1
 | **WPF**         | Windows Presentation Foundation                                   | OS                   |
 
 ## CRUD Definitions
+
+Loose mapping of CRUD terminology with a variety of platforms:
 
 | CRUD         | Create | Read   | Update | Delete |
 | ------------ | ------ | ------ | ------ | ------ |

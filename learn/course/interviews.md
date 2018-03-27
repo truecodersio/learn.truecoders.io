@@ -1,8 +1,8 @@
 ---
 title: Interview Skills
 date: '2018-03-19T19:00:56-05:00'
-module: tools
-order: 4
+module: course
+order: 3
 ---
 
 ## Introduction
