@@ -1,4 +1,6 @@
-import * as Typography from 'typography'
+// Imports
+
+import Typography = require('typography')
 
 export default new Typography({
   baseFontSize: '18px',
@@ -32,7 +34,7 @@ export default new Typography({
       styles: ['400', '400i', '500', '500i', '600', '600i', '700', '700i'],
     },
   ],
-  overrideStyles: ({ scale, rhythm }: any) => ({
+  overrideStyles: ({ scale, rhythm }) => ({
     a: {
       color: 'inherit',
     },
@@ -56,6 +58,6 @@ export default new Typography({
     },
     h6: {
       marginTop: '1.1em',
-    }
+    },
   }),
 })
