@@ -1,8 +1,8 @@
 ---
-title: Demo Project in C#
+title: "Exercise: Final Project"
 date: '2018-03-19T19:00:56-05:00'
-module: exercises
-order: 2
+module: csharp
+order: 12
 ---
 
 ## Introduction
