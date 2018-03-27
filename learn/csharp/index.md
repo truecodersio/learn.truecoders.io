@@ -11,6 +11,10 @@ As we go into details of any programming language, you'll find that documentatio
 
 * [C# Microsoft Walkthrough](https://msdn.microsoft.com/en-us/library/jj153219.aspx)
 * [C# Microsoft Docs](https://docs.microsoft.com/en-us/dotnet/csharp/)
+* [C# Corner: C# Interview Questions](http://www.c-sharpcorner.com/UploadFile/8ef97c/C-Sharp-net-interview-questions-and-answers/)
+* [Tutorials Point: C# Interview Questions](https://www.tutorialspoint.com/csharp/csharp_interview_questions.htm)
+* [A4Academics: C# Interview Questions](http://a4academics.com/interview-questions/52-dot-net-interview-questions/417-c-oops-interview-questions-and-answers)
+* [Career Guru: C# Interview Questions](https://career.guru99.com/top-50-c-sharp-interview-questions-answers/****)
 
 ## Source Code Comments
 
