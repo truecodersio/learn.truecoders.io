@@ -12,10 +12,6 @@ Here's our info on our WiFi access:
 * Network Name: "TrueCoders Wifi"
 * Password given upon request
 
-## NAS
-
-We've got a TrueCoders NAS (Network Attached Storage) where we'll store any larger relevant files available for download. To access, go to the [TrueCoders NAS](https://home.mycloud.com/action/share/d8cacd38-c200-4383-bd75-721a699e2a32) home page.
-
 ## Coffee Maker
 
 Our coffee maker works for making both single serve and full pots of coffee.
