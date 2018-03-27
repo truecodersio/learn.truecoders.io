@@ -35,4 +35,4 @@ Before we do anything, we've got to get connected to a server. Use the following
 * Server: `truecoders.database.windows.net`
 * Auth Type: "SQL Server Authentication"
 * Username: `developer`
-* Password: `4TrueCodersOnly!`
+* Password given upon request

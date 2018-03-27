@@ -5,14 +5,6 @@ module: csharp
 order: 1
 ---
 
-## Accounts
-
-During this course, you'll be using a few different online tools. Let's get some accounts setup:
-
-1. Create a [GitHub Account](https://github.com)
-1. Create a [Codewars Account](https://www.codewars.com)
-1. Set your Codewars Clan to (cAsE-sEnSiTiVe): `TrueCoders`
-
 ## Install Windows on Mac or Linux
 
 If you're **running Windows** already, **feel free to skip this section**.
@@ -48,22 +40,3 @@ Now that you've got your system up and running with Windows, it's time to downlo
 ## ReSharper
 
 Now that you've got Visual Studio installed, you'll want to [download ReSharper by JetBrains](https://www.jetbrains.com/resharper). ReSharper is a Visual Studio Extension for .NET Developers and will really help you as you learn C# and .NET.
-
-## Lightweight Code Editor
-
-There are times where you will want to edit code without all the features of Visual Studio IDE. We recommend [Visual Studio Code](https://code.visualstudio.com), but there are other options like [Atom](https://atom.io).
-
-## Source Control
-
-During this course, you'll learn more about Source Control Management. For now, let's just install it so we have it for later. Go ahead and [download Git](https://git-scm.com) Source Control Management as well as [SourceTree](https://www.sourcetreeapp.com), a Git GUI for Mac and Windows.
-
-## Other Tools
-
-| Name                                                                                |
-| ----------------------------------------------------------------------------------- |
-| [SSMS SQL Server Management Server](https://go.microsoft.com/fwlink/?linkid=858904) |
-| [MS Report Builder](https://www.microsoft.com/en-us/download/details.aspx?id=53613) |
-
-## C# Material
-
-Now that you're all setup, let's dive into our [C# Material Start](/csharp/variables).
