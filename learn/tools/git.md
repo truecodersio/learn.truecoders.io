@@ -22,6 +22,7 @@ As we go into details of any programming tool, you'll find that documentation is
 
 * [Git Homepage](https://git-scm.com)
 * [Git Docs](https://git-scm.com/doc)
+* [Linus Torvalds on Git](https://youtu.be/4XpnKHJAok8)
 * [GitHub Cheat Sheet for Git](https://services.github.com/on-demand/downloads/github-git-cheat-sheet.pdf)
 * [SourceTree: Free Git GUI Client](https://www.sourcetreeapp.com)
 

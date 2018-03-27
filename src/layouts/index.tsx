@@ -58,9 +58,7 @@ export default ({ children, data }: IndexLayoutProps) => {
       <Sidebar {...sidebarProps} />
       <div
         style={{
-          marginLeft: '384px',
-          marginTop: '40px',
-          marginRight: '40px',
+          margin: '40px 40px 40px 384px',
           maxWidth: '1200px',
         }}
       >

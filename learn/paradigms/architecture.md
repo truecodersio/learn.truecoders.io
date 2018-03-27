@@ -31,7 +31,7 @@ You should design your architecture with a few things in mind:
 
 Model View Controller (MVC) is a very well established architecture that fulfills all of the goals pf good architecture. MVC is supported/encouraged within various other platforms and languages, including ASP.NET MVC, so it will follow you wherever you go.
 
-![MVC](/images/mvc.png "MVC")
+![MVC](../images/mvc.png "MVC")
 
 MVC works by defining three different abstractions (Model, View, and Controller), allowing good separation of concern:
 
