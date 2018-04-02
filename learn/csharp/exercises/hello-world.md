@@ -28,10 +28,6 @@ In the created project, you'll see code that looks like this:
 
 ```csharp
 using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 
 namespace HelloWorld
 {
@@ -48,10 +44,6 @@ We're going to add some code to our `Main` method:
 
 ```csharp
 using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 
 namespace HelloWorld
 {
@@ -102,3 +94,85 @@ We're glad that you now know how to run your app with just the Command Prompt. H
 * That's it
 
 You'll see `Hello World` print out on your screen
+
+## Hello World on Steriods
+
+Ok, we've got the basics. Now, let's kick it up a notch:
+
+```csharp
+using System;
+using System.Speech.Synthesis;
+
+namespace HelloWorld
+{
+    public class Program
+    {
+        static void Main(string[] args)
+        {
+            Console.WriteLine("Welcome! What's your name?");
+            var input = Console.ReadLine();
+
+            var output = $"Awesome! Your name is: {input}";
+            Console.WriteLine(output);
+            Speak(output);
+
+            Console.WriteLine("Press any key to exit");
+            Console.ReadLine();
+        }
+    }
+}
+```
+
+## Chuck Norris Jokes
+
+Ok, let's tap into a random Chuck Norris joke and make the computer speak it to us:
+
+```csharp
+using System;
+using System.Net;
+using System.Speech.Synthesis;
+using System.Threading.Tasks;
+using Newtonsoft.Json;
+
+namespace HelloWorld
+{
+    private const string Address = "https://api.chucknorris.io/jokes/random";
+
+    public class Program
+    {
+        static void Main(string[] args)
+        {
+            var joke = GetJoke();
+            Console.WriteLine(joke.Value);
+
+            Speak(joke.Value);
+
+            Console.WriteLine("Press any key to exit");
+            Console.ReadLine();
+        }
+
+        private static Joke GetJoke()
+        {
+            var client = new WebClient();
+            var str = client.DownloadString(Address);
+            return JsonConvert.DeserializeObject<Joke>(str);
+        }
+
+        private static void Speak(string textToSpeak)
+        {
+            var synth = new SpeechSynthesizer();
+            synth.SelectVoiceByHints(VoiceGender.Female, VoiceAge.Adult);
+            synth.Speak(textToSpeak);
+        }
+    }
+
+    public class Joke
+    {
+        public string Value { get; set; }
+        public  string Url { get; set; }
+        [JsonProperty("icon_url")]
+        public string IconUrl { get; set; }
+        public string Id { get; set; }
+    }
+}
+```
