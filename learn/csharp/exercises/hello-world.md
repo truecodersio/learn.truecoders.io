@@ -97,7 +97,7 @@ You'll see `Hello World` print out on your screen
 
 ## Hello World on Steriods
 
-Ok, we've got the basics. Now, let's kick it up a notch:
+Ok, we've got the basics. Now, let's kick it up a notch. Let's make the computer talk to us:
 
 ```csharp
 using System;
