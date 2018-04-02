@@ -125,7 +125,7 @@ namespace HelloWorld
 
 ## Chuck Norris Jokes
 
-Ok, let's tap into a random Chuck Norris joke and make the computer speak it to us:
+Ok, that's pretty cool. Now, let's tap into a random Chuck Norris joke and make the computer speak it to us:
 
 ```csharp
 using System;
