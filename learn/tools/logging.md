@@ -2,7 +2,7 @@
 title: Logging
 date: '2018-03-19T19:00:56-05:00'
 module: tools
-order: 2
+order: 1
 ---
 
 You don't always have access to the debugger. When you're in production, you still need to know what's going on with your app. That's where logging comes in.
