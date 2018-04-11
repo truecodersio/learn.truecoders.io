@@ -17,6 +17,7 @@ Throughout this course, we will be using a variety of acronyms. Here's a running
 | **CAP Theorem** | Consistency, Availability, Partition Tolerance                    | Relational Databases |
 | **CRUD**        | Create, Read, Update, Delete                                      | Programming          |
 | **DI**          | Dependency Injection                                              | Programming          |
+| **DNS**         | Domain Name Servers                                               | Networking           |
 | **DRY**         | Don't Repeat Yourself                                             | Programming          |
 | **DVCS**        | Distributed Version Control System                                | Source Control       |
 | **GUI**         | Graphical User Interface                                          | General              |
@@ -25,16 +26,18 @@ Throughout this course, we will be using a variety of acronyms. Here's a running
 | **IoC**         | Inversion of Control                                              | Architecture         |
 | **JSON**        | JavaScript Object Notation                                        | Programming          |
 | **KISS**        | Keep it Simple, Stupid                                            | Programming          |
+| **LAN**         | Local Area Network                                                | Networking           |
 | **LOC**         | Lines of Code                                                     | Programming          |
 | **MVC**         | Model, View, Controller                                           | Architecture         |
 | **NAS**         | Network Attached Storage                                          | General              |
+| **NAT**         | Network Address Translation                                       | Networking           |
 | **OOP**         | Object Oriented Programming                                       | Programming          |
 | **OOPL**        | Object Oriented Programming Language                              | Programming          |
 | **OS**          | Operating System                                                  | General              |
 | **RDP**         | Remote Desktop Protocol                                           | General              |
 | **REST**        | Representational State Transfer                                   | Web Development      |
 | **REST API**    | Representational State Transfer Application Programming Interface | Programming          |
-| **RTFM**        | Read the F*cking Manual                                           | Programming          |
+| **RTFM**        | Read the F\*cking Manual                                          | Programming          |
 | **SCM**         | Source Control Management                                         | Programming          |
 | **SLOC**        | Source Lines of Code                                              | Programming          |
 | **SQL**         | Structured Query Language                                         | Programming          |
@@ -46,6 +49,7 @@ Throughout this course, we will be using a variety of acronyms. Here's a running
 | **UI**          | User Interface: The space where humans and machines interact      | Programming          |
 | **VM**          | Virtual Machine                                                   | General              |
 | **VPN**         | Virtual Private Network                                           | General              |
+| **WAN**         | Wide Area Network                                                 | Networking           |
 | **WPF**         | Windows Presentation Foundation                                   | OS                   |
 
 ## CRUD Definitions
