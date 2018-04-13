@@ -35,11 +35,10 @@ Remember this is a Science, so we have to prove it to ourselves that we've addre
 If you cannot reproduce the issue, here's some things to check:
 
 * Environment: Something due to configuration, anything that is not on source control, or any prerequisites that are required.
-* Source Cod: Git is atomic.
+* Source Code: Git is atomic.
 * Data:
   * Extremely large strings
-  * Improperly encoded values. Use the death string to reproduce:
-    * !@#$%^&*(*())_{}:"?><.//f
+  * Improperly encoded values. Use the death string to reproduce: `!@#$%^&*(*())_{}:"?><.//`
   * Data previously stored in the database.
 
 ### Determine the Nature of the Problem
