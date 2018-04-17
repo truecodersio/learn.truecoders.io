@@ -27,6 +27,7 @@ Throughout this course, we will be using a variety of acronyms. Here's a running
 | **JSON**        | JavaScript Object Notation                                        | Programming          |
 | **KISS**        | Keep it Simple, Stupid                                            | Programming          |
 | **LAN**         | Local Area Network                                                | Networking           |
+| **LINQ**        | Language Integrated Query                                         | Programming          |
 | **LOC**         | Lines of Code                                                     | Programming          |
 | **MVC**         | Model, View, Controller                                           | Architecture         |
 | **NAS**         | Network Attached Storage                                          | General              |
