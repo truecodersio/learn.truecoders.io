@@ -41,6 +41,8 @@ Some of these questions you can find answers to before the interview, while some
 
 Remember that most technical interviews will have technical questions and at least one whiteboard coding challenge. Practice your knowledge and practice writing code on a whiteboard.
 
+Check out this great pdf on [Cracking the Coding Skills](http://www.crackingthecodinginterview.com/uploads/6/5/2/8/6528028/cracking_the_coding_skills_-_v6.pdf).
+
 ## Arrive Early
 
 * If you're 30 minutes early, you're on time.
