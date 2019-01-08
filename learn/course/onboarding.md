@@ -83,5 +83,5 @@ Parking is provided for all our students that request it. The parking structure 
 
 You'll need to head up the ramp, then scan your key card as shown below:
 
-![Parking Ramp](../images/parking-ramp.jpg "Parking Ramp")
-![Parking Scan](../images/parking-scan.jpg "Parking Scan")
+[//]: # (![Parking Ramp](../images/parking-ramp.jpg "Parking Ramp"))
+[//]: # (![Parking Scan](../images/parking-scan.jpg "Parking Scan"))
