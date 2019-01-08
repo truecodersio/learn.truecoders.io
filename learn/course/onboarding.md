@@ -57,6 +57,13 @@ During this course, you'll learn more about Source Control Management. For now, 
 
 Here's some information you may find useful regarding our headquarters:
 
+## Location
+
+TrueCoders HQ is located in Hoover at [2131 Data Office Dr Suite #235](https://goo.gl/maps/W7szPUppBhy).
+ * Parking is available in front of the building.
+
+![Sky View](../images/SkyView-Hoover.jpg) "Sky View")
+
 ## WiFi
 
 Here's our info on our WiFi access:
@@ -69,19 +76,6 @@ Here's our info on our WiFi access:
 Our coffee maker works for making both single serve and full pots of coffee.
 
 **Important:** If you're making single serve coffee, only put in the water necessary for your cup. Any extra will overflow and spill.
-
-## Bathrooms
-
-Our TrueCoders HQ has a single bathroom available. If there is necessity, you may use the bathroom located on the 10th floor of the building. You'll need the code to use it:
-
-* Women's Restroom Code: `0512`
-* Men's Restroom Code: `0315`
-
-## Parking
-
-Parking is provided for all our students that request it. The parking structure is located on Morris Ave, just off of 20th St N. You'll find the location here on [Google Maps](https://goo.gl/maps/VF1YQCmCwuJ2).
-
-You'll need to head up the ramp, then scan your key card as shown below:
 
 <!--
 ![Parking Ramp](../images/parking-ramp.jpg "Parking Ramp")
