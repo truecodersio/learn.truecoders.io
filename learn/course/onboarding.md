@@ -62,7 +62,7 @@ Here's some information you may find useful regarding our headquarters:
 TrueCoders HQ is located in Hoover at [2131 Data Office Dr Suite #235](https://goo.gl/maps/W7szPUppBhy).
  * Parking is available in front of the building.
 
-![Sky View](../images/SkyView-Hoover.jpg) "Sky View")
+![Sky View](../images/SkyView-Hoover.jpg "Sky View")
 
 ## WiFi
 
