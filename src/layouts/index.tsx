@@ -4,7 +4,7 @@ import * as React from 'react'
 import Helmet from 'react-helmet'
 
 import Sidebar, { SidebarProps } from '../components/Sidebar'
-import 'prismjs/themes/prism-coy.css'
+import 'prismjs/themes/prism-default.css'
 
 // Interfaces
 
