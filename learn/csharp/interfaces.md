@@ -1,134 +1,60 @@
 ---
 title: Interfaces
-date: '2018-03-19T19:00:56-05:00'
-module: csharp
-order: 8
+date: '2-10-2020'
+module: newCsharp
+order: 17
 ---
 
-## Fundamentals
+## Why
 
-An Interface is like a blueprint. It defines some data and functionality that should exist within a type that implements the interface. An interface does not care about the implementation. It merely requires that it is implemented.
+Interfaces in C # provide a way to achieve runtime polymorphism. What is runtime polymorphism? By runtime polymorphism, we can point to any derived class from the object of the base class at runtime that shows the ability of runtime binding. In Object-oriented languages like C#, we can use pointers to achieve runtime polymorphism. Using interfaces we can invoke functions from different classes through the same Interface reference, whereas using virtual functions we can invoke functions from different classes in the same inheritance hierarchy through the same reference. Before things start getting difficult let me start using simple and short examples to explain the concept of interfaces.
 
-C# naming convention dictates that an interface start with a capital `I`, for interface.
+---
 
-Here's an example interface:
+## What
 
-```csharp
-interface ISampleInterface
-{
-    void SampleMethod();
-}
+By using interfaces, you can, for example, include behavior from multiple sources in a class. That capability is important in C# because the language doesn't support multiple inheritances of classes.
 
-interface IOtherInterface
-{
-    string OtherMethod();
-}
-```
+When a class or struct implements an interface, the class or struct must provide an implementation for all of the members that the interface defines. The interface itself provides no functionality. However, if a base class implements an interface, any class that's derived from the base class inherits that implementation.
 
-Unlike inheritance, a class can conform to multiple interfaces:
+**Remember: An interface does not care about the implementation. It merely requires that it is implemented.**
 
-```csharp
-class SampleClass : ISampleInterface, IOtherInterface
-{
-    // ISampleInterface member implementation
-    void SampleMethod()
-    {
-        // Method implementation
-    }
+---
 
-    // IOtherInterface member implementation
-    string OtherMethod()
-    {
-        // Other implementation
-        return "Message";
-    }
-}
-```
+## How
 
-Later in code, you can create an instance of the `SampleClass` as an instance of the `ISampleInterface`:
+* Let’s consider the previous lesson with inheritance, we had a base class called “BankAccount” and a derived class called “CheckingAccount” that inherited from our base class.
 
-```csharp
-ISampleInterface sample = new SampleClass();
-sample.SampleMethod();
-```
+![Interfaces](../images/interfacesEx0.png "Interfaces")
 
-You can also have an interface inherit from another interface.
+* By changing the BankAccount class to an interface called “IBankAccount” (interface naming convention requires a capital I in front of the class name”), we’ve put a safeguard in place stating that whenever a checking account is created it will be required to have these members.
 
-Let's create a Hawk class and a Penguin class. Both are animals. Both are birds, even. But, only one can fly.
+![Interfaces](../images/interfacesEx1.png "Interfaces")
 
-Using Interfaces, we can accomplish this functionality is a clear, concise, and readable way:
+* If you notice below, that we are throwing an error, this is because our ***CheckingAccount*** does not have the interface members and methods that are required per our “contract” with ***IBankAccount***
 
-```csharp
-class Animal {}
+![Interfaces](../images/interfacesEx2.png "Interfaces")
 
-public interface IBird // For all birds
-{
-    void CleanFeathers();
-}
+* We fix this by implementing the interface members and methods within our ***CheckingAccount*** class
 
-public interface IFlyingBird : IBird // For all flying birds
-{
-    void Fly();
-}
+![Interfaces](../images/interfacesEx3.png "Interfaces")
 
-class Hawk : Animal, IFlyingBird
-{
-    public void CleanFeathers() {}
-    public void Fly() {}
-}
+* A class can also conform to multiple interfaces:
 
-class Penguin : Animal, IBird
-{
-    public void CleanFeathers() {}
-}
-```
+![Interfaces](../images/interfacesEx4.png "Interfaces")
 
-Let's look at an example that shows the benefit of interchangeable code using Interfaces. We'll use the `IBird` interface with a method:
+* Within large companies and large projects, this is how good quality and consistent code are implemented, thus creating a form of quality assurance.
 
-```csharp
-public void CleanBird(IBird bird)
-{
-    bird.CleanFeathers();
-}
-```
+---
 
-We've created a method that accepts any bird in a type-safe fashion. Later, we can create an instance of the `Hawk` class and the `Penguin` class. Both of these instances are different types, but both implement the `IBird` interface:
+## Exercise
 
-```csharp
-var hawk = new Hawk();
-CleanBird(hawk); // this works
+* First, fork the repository from <https://github.com/nrice41593/InterfaceExercise>
 
-var penguin = new Penguin();
-CleanBird(penguin); // this also works
-```
+* Add me as a collaborator
 
-Let's look at another example. We'll use the `IEnumerable` interface:
+* Then, clone the repo onto your personal machine and follow the instructions in the Project.
 
-```csharp
-// Here we have an array of strings
-var emailArray = new [] { "a@me.com", "b@me.com" };
+## Quiz
 
-// Here we have a list of strings
-var emailList = new List<string> { "a@me.com", "b@me.com" };
-```
-
-Both these variables are different types, but both implement the `IEnumerable` interface. So, let's create a method:
-
-```csharp
-public void SendEmails(IEnumerable<string> emailAddresses)
-{
-    foreach(var emailAddress in emailAddresses)
-    {
-        //do something with the email
-    }
-}
-```
-
-Later in your code, you can call your `SendEmails` method using either your `emailArray` or `emailList` variables:
-
-```csharp
-SendEmails(emailArray); // this works
-SendEmails(emailList); // this also works
-```
-
-We've created a method that accepts either an Array or a List in a type-safe fashion.
+<https://docs.google.com/forms/d/1Z_Q2ye7Xl9-Yr8kum3B1mgqpVxkbf9ePRIwPDD27rp0/edit>
